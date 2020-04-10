@@ -43,5 +43,3 @@ def termFrequency(input, termsFrequencyFile):
     most_frequent_terms = list(sortedTerms.keys())
     fout.close()
     return no_of_most_frequent_terms, most_frequent_terms, nlp_word_to_lemma
-
-

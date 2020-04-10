@@ -35,9 +35,6 @@ dentiție 1
 alcătui 1
 dinte 1
 canin 1
-molar 1
-ș. 1
-a. 1
 prezenta 1
 osișor 1
 urechie 1
@@ -59,7 +56,6 @@ George 1
 Gaylord 1
 buletin 1
 AMNH 1
-v. 1
 furniza 1
 sistematică 1
 origine 1

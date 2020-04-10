@@ -1,0 +1,46 @@
+[0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Mamiferele sunt cele mai dezvoltate, adaptabile vertebrate, fiind animale homeoterme, care trăiesc în toate mediile de viață
+[0, 1, 0, 1, 0, 1, 2, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]
+
+Corpul lor este acoperit cu păr, blană, țepi sau plăci, îsi hrănesc puii cu laptele produs de mamele, sunt animale homeoterme, avânt o temperatură medie a corpului de 36-38 de grade Celsius, au glande mamare sub piele, inima este cvadricamerală, cu două atrii și două ventricule, dentiția este alcătuită din dinți specializați (canini, molari, ș
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+) și prezintă 3 osișoare ale urechii medii: ciocan, nicovală și scăriță
+[1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Clasificarea mamiferelor a avut loc prin mai multe iterații, deoarece Carl Linné a definit inițial clasa
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Nici un sistem de clasificare nu este universal acceptat; McKenna & Bell (1997) și Wilson & Reader (2005) oferă compendii recente utile
+[1, 0, 2, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Principiile clasificării și o clasificare a mamiferelor lui George Gaylord Simpson (Buletinul AMNH v
+[1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+ 85, 1945) furnizează sistematica originilor și relațiilor mamiferelor care au fost predate universal până la sfârșitul secolului al XX-lea
+[1, 0, 2, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Deși munca în teren a făcut treptat clasificarea lui Simpson depășită, rămâne cea mai apropiată clasificare oficială a mamiferelor
+[1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Cele mai multe mamifere, inclusiv cele șase ordine bogate în specii, aparțin grupului placentar
+[1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Cele trei ordine cele mai mari în număr de specii sunt Rodentia: șoareci, șobolani, porcupine, castori, capibarii și alte mamifere rozătoare; Chiroptera: lilieci; și Soricomorpha: soricidele, țestarii și solenodonii
+[1, 2, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Marea majoritate a mamiferelor au corpul acoperit de păr/blană, (în afară de cetacee, care însă pot avea urme de pilozitate)
+[0, 1, 0, 3, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Mamiferele, având o temperatură internă de 36 - 39° Celsius, adică o temperatură mai mare decât cea a mediului extern, cedează căldură, în special în sezonul rece, când temperatura mediului extern devine mult mai mică decât cea a corpului
+[1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Blana poate asigura o adaptare mai bună a mamiferului la condițiile externe
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Cavitatea toracică este la fel, conținând inima și plămânii, iar cea abdominală conține stomacul, intestinele, ficatul, rinichii, splina
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Mușchii sunt foarte dezvoltați, în special mușchii membrelor fiind dezvoltați
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Mușchii scheletici ai vertebratelor participă la termoreglare, la comunicare și la locomoție

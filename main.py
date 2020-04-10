@@ -3,11 +3,14 @@ from clustering.myClustering import MyClustering
 from removeSentences import removeSentences
 from clustering.similarity import cosine
 from vectorRepresentationOfSentences import vectorRepresentationOfSentences
+from myutils import zero_vector
 
-inputFile = 'input2.txt'
-termsFrequencyFile = 'termsFrequency2.txt'
-outputFile = 'output2.txt'
-summaryFile = 'summary2.txt'
+inputFile = 'testdata/input4.txt'
+termsFrequencyFile = 'testdata/termsFrequency-input4.txt'
+summaryFile = 'testdata/summary-input4.txt'
+vectorsFile = 'testdata/vectors-input4.txt'
+clustersFile = 'testdata/clusters-input4.txt'
+
 # the number of clusters should be 30% of the initial text
 noClusters = int(len(open(inputFile).read().split('.')) * 0.3)
 
@@ -20,23 +23,15 @@ print(termsFrequency)
 print(word_to_lemma)
 mostFrequentTerms = termsFrequency[:no_of_most_frequent_terms]
 
+vectorRepresentation = vectorRepresentationOfSentences(sentences, mostFrequentTerms, no_of_most_frequent_terms,
+                                                       word_to_lemma)
 
-vectorRepresentation = vectorRepresentationOfSentences(sentences, mostFrequentTerms, no_of_most_frequent_terms, word_to_lemma)
-#
-# # 5.Apply the hierarchical clustering algorithm for T = {S1; … ; Sn}
-#
-# # TODO handle zero vectors
-# # if vector_representation[i] is a zero-vector, it should not be considered in the summary because it does not contain any frequent terms
-# # we don't consider them when clustering
-# # assign them cluster number -1
-# original_vector_representation = copy.deepcopy(vector_representation)
-#
-# for vector in vector_representation:
-#     if zero_vector(vector):
-#         vector_representation.remove(vector)
-# print(vector_representation)
+# 5. Remove zero-vectors
+for vector in vectorRepresentation:
+    if zero_vector(vector):
+        vectorRepresentation.remove(vector)
 
-print(noClusters)
+# 6.Apply the hierarchical clustering algorithm for T = {S1; … ; Sn}
 for i in range(len(vectorRepresentation)):
     print(vectorRepresentation[i], sentences[i])
 cluster = MyClustering(noClusters=noClusters, similarity=cosine, input=vectorRepresentation)
@@ -56,8 +51,17 @@ while j < noClusters:
         i += 1
     j += 1
     i = 0
-print(len(summary))
-fout = open(summaryFile, "w") # write summary here
+
+fout = open(summaryFile, "w")  # write summary here
 for i in summary:
     fout.write(i[1] + "\n")
+fout.close()
+
+fout = open(clustersFile, "w")
+fout.write(str(labels))
+fout.close()
+
+fout = open(vectorsFile, "w")
+for i in range(len(vectorRepresentation)):
+    fout.write(str(vectorRepresentation[i]) + '\n' + sentences[i] + '\n')
 fout.close()

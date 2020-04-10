@@ -1,0 +1,22 @@
+[0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0]
+Pe fondul suspendării în totalitate a activităților publice, a scăzut ponderea celor care ies din casă în această perioadă
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0]
+ De asemenea, scade gradul de încredere în ceilalți cu privire la respectarea restricțiilor de mișcare
+[1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+
+
+Respondenții de peste 65 de ani (81%) și cei cu educație ridicată (84%) susțin, în proporții mai ridicate decât alte categorii, că respectă indicațiile în totalitate
+[1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+ 23% dintre participanții la studiu spun că respectă, parțial, aceste indicații
+[1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+
+
+Femeile, vârstnicii peste 65 de ani și respondenții cu educație crescută sunt cei în rândul cărora proporția celor care au respectat în totalitate indicația de a rămâne la domiciliu este mai ridicată
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+
+
+Cea mai ridicată pondere se regăsește în rândul persoanelor între 36 și 50 de ani
+[2, 0, 0, 3, 0, 0, 2, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0]
+
+
+Crește proporția românilor care cred că ceilalți oameni nu respectă recomandările pe perioada stării de urgență: 46% dintre români (față de 36% în perioada 16 – 17 martie 2020) cred că majoritatea oamenilor din localitățile lor nu respectă recomandările autorităților privind conduita, în această perioadă

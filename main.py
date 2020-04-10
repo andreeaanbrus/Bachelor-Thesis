@@ -1,16 +1,13 @@
-import copy
-
-import numpy as np
-from sklearn.cluster import AgglomerativeClustering
-
 from frequentTerms import termFrequency
+from clustering.myClustering import MyClustering
 from removeSentences import removeSentences
+from clustering.similarity import cosine
 from vectorRepresentationOfSentences import vectorRepresentationOfSentences
 
 inputFile = 'input2.txt'
 termsFrequencyFile = 'termsFrequency2.txt'
 outputFile = 'output2.txt'
-sumaryFile = 'summary2.txt'
+summaryFile = 'summary2.txt'
 # the number of clusters should be 30% of the initial text
 noClusters = int(len(open(inputFile).read().split('.')) * 0.3)
 
@@ -42,22 +39,25 @@ vectorRepresentation = vectorRepresentationOfSentences(sentences, mostFrequentTe
 print(noClusters)
 for i in range(len(vectorRepresentation)):
     print(vectorRepresentation[i], sentences[i])
-cluster = AgglomerativeClustering(n_clusters=noClusters, linkage="single", affinity="cosine")
-cluster.fit_predict(np.array(vectorRepresentation))
-print(cluster.labels_)
+cluster = MyClustering(noClusters=noClusters, similarity=cosine, input=vectorRepresentation)
+labels = cluster.predict()
+print(labels)
 
 summary = []
 i = 0
 j = 0
 while j < noClusters:
     while i < len(sentences):
-        if cluster.labels_[i] == j:
+        if labels[i] == j:
             # for now, pick the first sentence from the cluster
             # add some wights to the sentences later
-            summary.append({i: sentences[i]})
+            summary.append((i, sentences[i]))
             break
         i += 1
     j += 1
     i = 0
-print(summary)
-
+print(len(summary))
+fout = open(summaryFile, "w") # write summary here
+for i in summary:
+    fout.write(i[1] + "\n")
+fout.close()

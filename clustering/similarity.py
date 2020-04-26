@@ -11,7 +11,6 @@ def customSimilarity(a, b):
     for i in range(len(a)):
         numerator += min(a[i], b[i])
         denominator += max(a[i], b[i])
-        print(numerator, denominator, i)
     return numerator / denominator
 
 

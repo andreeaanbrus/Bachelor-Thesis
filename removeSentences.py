@@ -10,7 +10,6 @@ def removeSentences(input, split):
     sentences = text.split(split)
     for sentence in sentences:
         words = sentence.split()
-        # todo discuss the length of sentences
         if len(words) > 30 or len(words) < 5:
             sentences.remove(sentence)
     return sentences

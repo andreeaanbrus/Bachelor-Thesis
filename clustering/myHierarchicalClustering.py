@@ -1,5 +1,5 @@
-class MyClustering:
-    def __init__(self, noClusters, input, similarity):
+class MyHierarchicalClustering:
+    def __init__(self, noClusters, input, similarity, linkage="single"):
         """
 
         :type noClusters: the number of resulted clusters
@@ -12,6 +12,7 @@ class MyClustering:
         self.similarity = similarity
         self.roots = []
         self.treeDepth = []
+        self.linkage = linkage
 
     def mergeClustersSingle(self, x, y):
         """
@@ -62,23 +63,24 @@ class MyClustering:
         :return: returns the clusters' labels for each value from the data input
         """
         # each data point is a single cluster -> labels are 0, 1, 2, ... n-1
-        self.roots = [i for i in range(0, len(self.input))]
-        self.treeDepth = [1 for _ in range(0, len(self.input))]
-        points = []
-        for i in range(len(self.input)):
-            for j in range(i + 1, len(self.input)):
-                distance = self.similarity(self.input[i], self.input[j])
-                points.append((distance, i, j))
-        points.sort(key=lambda object: object[0])
-        operations = len(self.input) - self.noClusters
-        for distance, x, y in points:
-            if self.getClusterRoot(x) != self.getClusterRoot(y):
-                self.mergeClustersSingle(self.getClusterRoot(x), self.getClusterRoot(y))
-                operations -= 1
-            if operations == 0:
-                break
-        notNormalizedResult = []
-        for i in range(len(self.input)):
-            notNormalizedResult.append(self.getClusterRoot(self.roots[i]))
-        normalizedResult = self.normalize(notNormalizedResult)
-        return normalizedResult
+        if self.linkage == "single":
+            self.roots = [i for i in range(0, len(self.input))]
+            self.treeDepth = [1 for _ in range(0, len(self.input))]
+            points = []
+            for i in range(len(self.input)):
+                for j in range(i + 1, len(self.input)):
+                    distance = self.similarity(self.input[i], self.input[j])
+                    points.append((distance, i, j))
+            points.sort(key=lambda object: object[0])
+            operations = len(self.input) - self.noClusters
+            for distance, x, y in points:
+                if self.getClusterRoot(x) != self.getClusterRoot(y):
+                    self.mergeClustersSingle(self.getClusterRoot(x), self.getClusterRoot(y))
+                    operations -= 1
+                if operations == 0:
+                    break
+            notNormalizedResult = []
+            for i in range(len(self.input)):
+                notNormalizedResult.append(self.getClusterRoot(self.roots[i]))
+            normalizedResult = self.normalize(notNormalizedResult)
+            return normalizedResult

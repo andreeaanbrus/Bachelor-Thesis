@@ -1,15 +1,16 @@
+from clustering.myKMeans import MyKMeans
 from frequentTerms import termFrequency
-from clustering.myClustering import MyClustering
+from clustering.myHierarchicalClustering import MyHierarchicalClustering
 from removeSentences import removeSentences
-from clustering.similarity import cosine
+from clustering.similarity import cosine, customSimilarity, euclidean
 from vectorRepresentationOfSentences import vectorRepresentationOfSentences
 from myutils import zero_vector
 
-inputFile = 'testdata/input4.txt'
-termsFrequencyFile = 'testdata/termsFrequency-input4.txt'
-summaryFile = 'testdata/summary-input4.txt'
-vectorsFile = 'testdata/vectors-input4.txt'
-clustersFile = 'testdata/clusters-input4.txt'
+inputFile = 'testdata/input3.txt'
+termsFrequencyFile = 'termsFrequency.txt'
+summaryFile = 'summary-input2.txt'
+vectorsFile = 'vectors.txt'
+clustersFile = 'clusters.txt'
 
 # the number of clusters should be 30% of the initial text
 noClusters = int(len(open(inputFile).read().split('.')) * 0.3)
@@ -18,9 +19,6 @@ noClusters = int(len(open(inputFile).read().split('.')) * 0.3)
 
 # 4. Remove the longest/shortest sentences (sentences over 20 words, under 10 words)
 sentences = removeSentences(inputFile, '.')
-print(no_of_most_frequent_terms)
-print(termsFrequency)
-print(word_to_lemma)
 mostFrequentTerms = termsFrequency[:no_of_most_frequent_terms]
 
 vectorRepresentation = vectorRepresentationOfSentences(sentences, mostFrequentTerms, no_of_most_frequent_terms,
@@ -32,10 +30,13 @@ for vector in vectorRepresentation:
         vectorRepresentation.remove(vector)
 
 # 6.Apply the hierarchical clustering algorithm for T = {S1; … ; Sn}
-for i in range(len(vectorRepresentation)):
-    print(vectorRepresentation[i], sentences[i])
-cluster = MyClustering(noClusters=noClusters, similarity=cosine, input=vectorRepresentation)
+cluster = MyHierarchicalClustering(noClusters=noClusters, similarity=cosine, input=vectorRepresentation)
 labels = cluster.predict()
+print(labels)
+
+# 6. Apply KMEANS clustering
+cluster = MyKMeans(noClusters=noClusters, similarity=euclidean, input=vectorRepresentation)
+(labels, centroids) = cluster.predict()
 print(labels)
 
 summary = []

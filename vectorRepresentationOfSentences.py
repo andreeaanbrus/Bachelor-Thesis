@@ -1,5 +1,6 @@
 import string
 
+
 def vectorRepresentationOfSentences(sentences, mostFrequentTerms, no_of_most_frequent_terms, word_to_lemma):
     """
     4. Represent each sentence Si by m-vectors v[i] = {f(i, t1), f(i, t2), ... f(i, tm)}.

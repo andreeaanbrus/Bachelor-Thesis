@@ -4,7 +4,7 @@ from random import randrange
 from sklearn.cluster import AgglomerativeClustering
 from sklearn.metrics import pairwise_distances
 
-from clustering.myClustering import MyClustering
+from clustering.myHierarchicalClustering import MyHierarchicalClustering
 from clustering.similarity import euclidean, cosine
 
 
@@ -42,8 +42,8 @@ class TestClustering(unittest.TestCase):
         for i in cluster.labels_:
             sklearnLabels.append(i)
 
-        myCluster = MyClustering(noClusters=self.noClusters, similarity=euclidean,
-                                 input=self.inputData)
+        myCluster = MyHierarchicalClustering(noClusters=self.noClusters, similarity=euclidean,
+                                             input=self.inputData)
         cluster_labels = myCluster.predict()
 
         mapping = self.mapClusters(sklearnLabels, cluster_labels)
@@ -57,8 +57,8 @@ class TestClustering(unittest.TestCase):
         for i in cluster.labels_:
             sklearnLabels.append(i)
 
-        myCluster = MyClustering(noClusters=self.noClusters, similarity=cosine,
-                                 input=self.inputData)
+        myCluster = MyHierarchicalClustering(noClusters=self.noClusters, similarity=cosine,
+                                             input=self.inputData)
         cluster_labels = myCluster.predict()
 
         mapping = self.mapClusters(sklearnLabels, cluster_labels)

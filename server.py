@@ -1,4 +1,6 @@
 from flask import Flask
+from sklearn.cluster import AgglomerativeClustering
+from sklearn.metrics import pairwise_distances
 
 from clustering.myHierarchicalClustering import MyHierarchicalClustering
 from clustering.similarity import cosine, customSimilarity
@@ -10,7 +12,8 @@ from vectorRepresentationOfSentences import vectorRepresentationOfSentences
 app = Flask(__name__)
 
 termFrequencyFunction = termFrequency
-
+def sim_affinity_cosine(X):
+    return pairwise_distances(X, metric=cosine)
 
 @app.route('/hierarchical/<int:input_id>')
 def summarize_hierarchical(input_id):
@@ -38,9 +41,37 @@ def summarize_hierarchical(input_id):
             vectorRepresentation.remove(vector)
 
     # 6.Apply the hierarchical clustering algorithm for T = {S1; … ; Sn}
-    cluster = MyHierarchicalClustering(noClusters=noClusters, similarity=customSimilarity, input=vectorRepresentation)
+    cluster = MyHierarchicalClustering(noClusters=noClusters, similarity=cosine, input=vectorRepresentation)
     labels = cluster.predict()
-    return str(labels)
+    summary = []
+    i = 0
+    j = 0
+    while j < noClusters:
+        while i < len(sentences):
+            if labels[i] == j:
+                # for now, pick the first sentence from the cluster
+                # add some wights to the sentences later
+                summary.append((i, sentences[i]))
+                break
+            i += 1
+        j += 1
+        i = 0
+
+    fout = open(summaryFile, "w")  # write summary here
+    for i in summary:
+        fout.write(i[1] + "\n")
+    fout.close()
+
+    fout = open(clustersFile, "w")
+    fout.write(str(labels))
+    fout.close()
+
+    fout = open(vectorsFile, "w")
+    for i in range(len(vectorRepresentation)):
+        fout.write(str(vectorRepresentation[i]) + '\n' + sentences[i] + '\n')
+    fout.close()
+
+    return str(summary)
 
 
 if __name__ == '__main__':

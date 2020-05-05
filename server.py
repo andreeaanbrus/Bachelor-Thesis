@@ -17,14 +17,15 @@ def sim_affinity_cosine(X):
 
 @app.route('/hierarchical/<int:input_id>')
 def summarize_hierarchical(input_id):
-    inputFile = 'testdata/input' + str(input_id) + '.txt'
+    inputFile = 'testdata/samples/sample' + str(input_id) + '.txt'
     termsFrequencyFile = 'termsFrequency.txt'
-    summaryFile = 'summary-input' + str(input_id) + '.txt'
+    summaryFile = 'testdata/samples/summary-input' + str(input_id) + '.txt'
     vectorsFile = 'vectors.txt'
-    clustersFile = 'clusters.txt'
+    clustersFile = 'testdata/samples/clusters' + str(input_id) + '.txt'
 
     # the number of clusters should be 30% of the initial text
-    noClusters = int(len(open(inputFile).read().split('.')) * 0.3)
+    noClusters = int(len(open(inputFile).read().split('.')) * 0.5)
+    print(len(open(inputFile).read().split('.')))
 
     (no_of_most_frequent_terms, termsFrequency, word_to_lemma) = termFrequencyFunction(inputFile, termsFrequencyFile)
 
@@ -51,6 +52,7 @@ def summarize_hierarchical(input_id):
             if labels[i] == j:
                 # for now, pick the first sentence from the cluster
                 # add some wights to the sentences later
+                # TODO THIS IS THE I AFTER REMOVING SENTENCES, the sentences are correct, the indexes are not
                 summary.append((i, sentences[i]))
                 break
             i += 1

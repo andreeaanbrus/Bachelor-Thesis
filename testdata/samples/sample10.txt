@@ -1,0 +1,13 @@
+Multe dintre electronicele moderne, de la sculele electrice şi până la automobilele electrice, utilizează baterii Li-ion.
+Cu toate acestea, dominația litiului în ceea ce priveşte construcţia bateriilor electrice s-ar putea încheia în curând.
+Cercetătorii de la RMIT University din Melbourne, Australia, au creat prototipul unei baterii care funcţionează pe bază de carbon și apă.
+Aceasta reprezintă prima baterie reîncărcabilă cu protoni ce utilizează materiale ieftine, ecologice.
+Bateria cu protoni poate fi conectată la o sursă de alimentare la fel ca orice altă baterie reîncărcabilă.
+Energia electrică din sursa de alimentare descompune moleculele de apă şi generează protoni care se leagă cu carbonul din electrodul bateriei.
+Protonii sunt apoi eliberați din nou şi trec printr-o pilă de combustie unde interacționează cu aerul și formează apă.
+Conform unui comunicat de presă al RMIT University, experimentele au arătat că o baterie cu protoni de mici dimensiuni, având o suprafață activă de numai 5,5 centimetri pătrați, poate stoca mai multă energie electrică decât bateriile Li-ion disponibile în comerț.
+Mineritul necesar extragerii litiului şi a altor metale rare, care sunt utilizate în construcţia bateriilor tradiţionale, poate avea o serie de consecințe nedorite asupra mediului ambiant, inclusiv poluarea cu substanțe chimice a unor ecosisteme sau defrişări de vegetație.
+De asemenea, obţinerea unor materiale conductoare de calitate necesită o cantitate semnificativă de energia electrică rezultată în urma arderii combustibililor fosili.
+Din acest motiv, tehnologia de realizare a bateriilor cu protoni se dovedeşte a fi ecologică, deoarece obţinerea carbonului și a apei, care sunt necesare pentru realizarea acestui nou tip de baterie, are un impact aproape zero asupra mediului ambiant.
+Cercetătorii de la RMIT University estimează că bateria pe bază de protoni ar putea fi disponibilă comercial în decurs de cinci până la zece ani şi atunci aceasta va concura cu bateria Powerwall  produsă de compania Tesla.
+Bateria, care este încă la stadiul de prototip, ar putea fi folosită în stocarea electricității de la panouri fotovoltaice în gospodării.

@@ -24,7 +24,6 @@ class MyKMeans:
         """
         random_centroids = []
         random_positions = sample([i for i in range(len(self.input))], self.noClusters)
-        print(random_positions)
         for random_position in random_positions:
             random_centroids.append(self.input[random_position])
         return random_centroids
@@ -48,7 +47,6 @@ class MyKMeans:
         min_i = -1
         min_dis = 1000000000
         for centroid in centroids:
-            print(centroid, self.input[point_i])
             if self.similarity(self.input[point_i], centroid) < min_dis:
                 min_dis = self.similarity(self.input[point_i], centroid)
                 min_i = centroid
@@ -66,7 +64,6 @@ class MyKMeans:
             for i in range(len(self.labels)):
                 if np.array_equal(self.labels[i], centroid):
                     pointsInCluster.append(self.input[i])
-            print("Mean of ", pointsInCluster," is ", np.mean(pointsInCluster, axis=0, dtype=int))
             means.append(np.mean(pointsInCluster, axis=0, dtype=int))
         return means
 

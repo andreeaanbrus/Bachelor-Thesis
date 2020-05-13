@@ -1,3 +1,4 @@
+Istoria calculatorului
 Un calculator, numit și sistem de calcul, computer sau ordinator, este o mașină de prelucrat date și informații conform unei liste de instrucțiuni numită program.
 În zilele noastre calculatoarele se construiesc în mare majoritate din componente electronice și de aceea cuvântul „calculator” înseamnă de obicei un calculator electronic.
 Calculatoarele care sunt programabile liber și pot, cel puțin în principiu, prelucra orice fel de date sau informații se numesc universale .

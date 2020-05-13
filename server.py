@@ -89,13 +89,16 @@ def algorithm(input_text, method, compression, summary_file, ):
 def summarize_example(input_id, method, compression):
     inputFile = 'testdata/samples/sample' + str(input_id) + '.txt'
     summaryFile = 'testdata/samples/summary-input' + str(input_id) + '.txt'
+    title = open(inputFile).readline()
+    print(title)
     # the number of clusters should be 30% of the initial text
     input_text = open(inputFile).read()
-    sentences, summaryResponse = algorithm(input_text, method, compression, summaryFile)
+    print(input_text)
+    # sentences, summaryResponse = algorithm(input_text, method, compression, summaryFile)
     res = {
-        "title": "Some title",
-        "input": sentences,
-        "summary": summaryResponse
+        "title": title,
+        "input": input_text,
+        "summary": "summaryResponse"
     }
     response = app.response_class(
         response=json.dumps(res),

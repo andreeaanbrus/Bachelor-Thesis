@@ -1,3 +1,4 @@
+Bateria cu protoni
 Multe dintre electronicele moderne, de la sculele electrice şi până la automobilele electrice, utilizează baterii Li-ion.
 Cu toate acestea, dominația litiului în ceea ce priveşte construcţia bateriilor electrice s-ar putea încheia în curând.
 Cercetătorii de la RMIT University din Melbourne, Australia, au creat prototipul unei baterii care funcţionează pe bază de carbon și apă.

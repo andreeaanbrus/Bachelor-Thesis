@@ -61,19 +61,18 @@ def algorithm(input_text, method, compression, summary_file, title):
         stop3 = datetime.now()
         print("Clustering time: ", stop3 - start3)
     summary = {}
-    i = 0
-    j = 0
-    while j < noClusters:
-        while i < len(sentences):
-            if labels[i] == j:
-                # for now, pick the first sentence from the cluster
-                # todo add some wights to the sentences later
-                # TODO THIS IS THE I AFTER REMOVING SENTENCES, the sentences are correct, the indexes are not
-                summary[i] = sentences[i]
-                break
-            i += 1
-        j += 1
-        i = 0
+    summary_positions = [-100 for _ in range(noClusters)]
+    summary_rank = [-100 for _ in range(noClusters)]
+    for i in range(len(sentences)):
+        if rank[i] > summary_rank[labels[i]]:
+            summary_positions[labels[i]] = i
+            summary_rank[labels[i]] = rank[i]
+
+    # sort the summary_positions to assure the cronological order of the sentences
+
+    summary_positions.sort()
+    for pos in summary_positions:
+        summary[pos] = sentences[pos]
     summaryResponse = ''
     fout = open(summary_file, "w")  # write summary here
     for index, sentence in summary.items():

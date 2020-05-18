@@ -17,12 +17,11 @@ app = Flask(__name__)
 CORS(app)
 
 
-# termFrequencyFunction = termFrequency
 def sim_affinity_cosine(X):
     return pairwise_distances(X, metric=cosine)
 
 
-def algorithm(input_text, method, compression, summary_file, ):
+def algorithm(input_text, method, compression, summary_file, title):
     noClusters = 3
     if compression == 30:
         noClusters = int(len(input_text.split('.')) * 0.3)
@@ -30,7 +29,7 @@ def algorithm(input_text, method, compression, summary_file, ):
         noClusters = int(len(input_text.split('.')) * 0.5)
     print(noClusters)
     start1 = datetime.now()
-    (no_of_most_frequent_terms, termsFrequency, word_to_lemma) = termFrequency(input_text)
+    (no_of_most_frequent_terms, termsFrequency, word_to_lemma, title_lemma) = termFrequency(input_text, title)
     stop1 = datetime.now()
     print("Term frequency and lemmatization time: ", stop1 - start1)
     start2 = datetime.now()
@@ -38,8 +37,8 @@ def algorithm(input_text, method, compression, summary_file, ):
     sentences = removeSentences(input_text, '.')
     mostFrequentTerms = termsFrequency[:no_of_most_frequent_terms]
 
-    vectorRepresentation = vectorRepresentationOfSentences(sentences, mostFrequentTerms, no_of_most_frequent_terms,
-                                                           word_to_lemma)
+    vectorRepresentation, rank = vectorRepresentationOfSentences(sentences, mostFrequentTerms, no_of_most_frequent_terms,
+                                                           word_to_lemma, title_lemma)
     stop2 = datetime.now()
     print("Vector representation time: ", stop2 - start2)
 
@@ -48,7 +47,6 @@ def algorithm(input_text, method, compression, summary_file, ):
         if zero_vector(vector):
             vectorRepresentation.remove(vector)
     # 6.Apply the hierarchical clustering algorithm for T = {S1; … ; Sn}
-    # todo define methods
     labels = None
     if method == 'hierarchical':
         start3 = datetime.now()
@@ -89,16 +87,16 @@ def algorithm(input_text, method, compression, summary_file, ):
 def summarize_example(input_id, method, compression):
     inputFile = 'testdata/samples/sample' + str(input_id) + '.txt'
     summaryFile = 'testdata/samples/summary-input' + str(input_id) + '.txt'
-    title = open(inputFile).readline()
-    print(title)
-    # the number of clusters should be 30% of the initial text
-    input_text = open(inputFile).read()
-    print(input_text)
-    # sentences, summaryResponse = algorithm(input_text, method, compression, summaryFile)
+    with open(inputFile) as f:
+        title = next(f)
+        print(title)
+        input_text = f.read()
+        print(input_text)
+    sentences, summaryResponse = algorithm(input_text, method, compression, summaryFile, title)
     res = {
         "title": title,
         "input": input_text,
-        "summary": "summaryResponse"
+        "summary": summaryResponse
     }
     response = app.response_class(
         response=json.dumps(res),
@@ -115,7 +113,7 @@ def summarize(method, compression):
     print(request.get_json())
     title = request.get_json()['title']
     input_text = request.get_json()['input_text']
-    sentences, summaryResponse = algorithm(input_text, method, compression, summaryFile)
+    sentences, summaryResponse = algorithm(input_text, method, compression, summaryFile, title)
     res = {
         "summary": summaryResponse
     }

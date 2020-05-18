@@ -5,21 +5,15 @@ cube = Cube(verbose=True)
 cube.load("ro")
 
 
-def termFrequency(input):
-    # fin = open(input)
-    # title = fin.readline()
-    # print(title)
-    # titleForLemma = cube(title)
-    # titleLemma = []
+def termFrequency(input, title):
+    titleForLemma = cube(title)
+    title_lemma = []
     # sentence number is 1, but this is the nlp-cube documentation for lemmatization
-    # for sentence in titleForLemma:
-    #     for entry in sentence:
-    #         if entry.upos == "VERB" or entry.upos == "NOUN" or entry.upos == "PROPN":
-    #             titleLemma.append(entry.lemma)
-    # print(titleLemma)
-
+    for sentence in titleForLemma:
+        for entry in sentence:
+            if entry.upos == "VERB" or entry.upos == "NOUN" or entry.upos == "PROPN":
+                title_lemma.append(entry.lemma)
     sentences = cube(input)
-    print(sentences)
     no_of_all_terms = 0
     nlp_word_to_lemma = dict()
     words = [{} for _ in range(0, len(sentences))]
@@ -27,7 +21,7 @@ def termFrequency(input):
     for i in range(0, len(sentences)):
         for entry in sentences[i]:
             if entry.upos != 'PUNCT':
-                nlp_word_to_lemma[entry.word] = entry.lemma
+                nlp_word_to_lemma[entry.word] = {'lemma': entry.lemma, 'upos': entry.upos}
             if entry.upos == "VERB" or entry.upos == "NOUN" or entry.upos == "PROPN":
                 # only calculate the frequency of verbs and nouns and proper nouns
                 if entry.lemma not in words[i]:
@@ -46,11 +40,15 @@ def termFrequency(input):
                 overAllFrequency[word] += words[i][word]
 
     # 3. calculate the m most frequent terms
-    sortedTerms = {k: v for k, v in sorted(overAllFrequency.items(), key=lambda item: item[1], reverse=True)}
-    # fout = open(termsFrequencyFile, "w")  # here are the frequencies of the terms
-    # for key in sortedTerms.keys():
-    #     fout.write(key + " " + str(sortedTerms[key]) + "\n")
-    no_of_most_frequent_terms = int(no_of_all_terms * 0.3)  # m
+    # take the terms with frequency > 2
+    most_frequent_terms_dict = {k: v for k, v in overAllFrequency.items() if v >= 2}
+    # sort the terms
+    sortedTerms = {k: v for k, v in sorted(most_frequent_terms_dict.items(), key=lambda item: item[1], reverse=True)}
+    fout = open('termsFrequency.txt', "w")  # here are the frequencies of the terms
+    for key in sortedTerms.keys():
+        fout.write(key + " " + str(sortedTerms[key]) + "\n")
     most_frequent_terms = list(sortedTerms.keys())
-    # fout.close()
-    return no_of_most_frequent_terms, most_frequent_terms, nlp_word_to_lemma
+    no_of_most_frequent_terms = len(most_frequent_terms)  # m
+    fout.close()
+    print(nlp_word_to_lemma)
+    return no_of_most_frequent_terms, most_frequent_terms, nlp_word_to_lemma, title_lemma

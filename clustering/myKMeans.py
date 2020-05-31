@@ -94,8 +94,8 @@ class MyKMeans:
         for i in labels:
             if not isIn(i, maping):
                 maping.append(i)
-        for i in range(self.noClusters):
+        for x in range(self.noClusters):
             for j in range(len(labels)):
-                if np.array_equal(labels[j], maping[i]):
-                    normalizedLabels[j] = i
+                if np.array_equal(labels[j], maping[x]):
+                    normalizedLabels[j] = x
         return normalizedLabels

@@ -14,7 +14,7 @@ def vectorRepresentationOfSentences(sentences, most_frequent_terms, no_of_most_f
     """
     for sentence in sentences:
         sentence.representation = [0 for _ in range(no_of_most_frequent_terms)]
-        if sentence.id == 0:
+        if sentence.id == 1:
             sentence.rank += 10  # first sentence is more important
         # 4. Remove the longest/shortest sentences (sentences over 20 words, under 10 words)
         words = [word.strip(string.punctuation) for word in sentence.text.split()]

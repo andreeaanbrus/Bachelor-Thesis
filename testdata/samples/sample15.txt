@@ -1,0 +1,25 @@
+Inteligența artificială
+În termeni simpli, inteligența artificială se referă la sisteme sau la mașini care imită inteligența umană, pentru a efectua diverse activități și care se pot îmbunătăți iterativ pe baza informațiilor pe care le colectează.
+Iată câteva exemple: roboții de chat utilizează inteligența artificială pentru a înțelege mai repede problemele clienților și pentru a oferi răspunsuri mai eficiente.
+Asistenții inteligenți utilizează inteligența artificială pentru a analiza informațiile esențiale din seturile de date mari de text, pentru a îmbunătăți programarea.
+Motoarele de recomandare pot oferi recomandări automate pentru emisiunile TV, în funcție de obiceiurile de vizionare ale utilizatorilor.
+Inteligența artificială se referă mai mult la procesele și funcționalitățile pentru gândirea și analizele de date extraordinare decât la un anumit format sau funcție.
+Deși inteligența artificială inspiră imagini ale unor roboți performanți, cu aspect uman, care vor cuceri lumea, inteligența artificială nu are intenția de a înlocui oamenii.
+Scopul său este de a spori semnificativ funcționalitățile și contribuțiile umane.
+Acest lucru face ca inteligența artificială să devină un activ foarte valoros pentru afaceri.
+Inteligența artificială a devenit un termen generic pentru aplicațiile care îndeplinesc activități complexe, care odată au necesitat o contribuție umană, cum ar fi comunicarea online cu clienții sau jocul de șah.
+Termenul este adesea utilizat în mod interschimbabil cu subdomeniile sale, care includ învățarea mașinii și învățarea aprofundată.
+Învățarea mașinii se axează pe construcția sistemelor care pot învăța sau își pot îmbunătăți performanțele în funcție de datele pe care le procesează.
+Deși toate sistemele de învățare a mașinii reprezintă inteligență artificială, nu toate sistemele de inteligență artificială sunt axate pe învățarea mașinii.
+Pentru a obține întreaga valoare de la inteligența artificială, multe companii fac investiții semnificative în echipele de știință a datelor.
+Știința datelor, un domeniu interdisciplinar care utilizează metode științifice și alte metode pentru extragerea valorii din date, combină funcționalitățile din domenii precum statistica și informatica cu cunoștințele de afaceri, pentru a analiza datele colectate din mai multe surse.
+Principiul central al inteligența artificială este de a reproduce – și apoi de a depăși – modul în care oamenii percep și interacționează cu lumea.
+Susținută de diverse forme de învățare a mașinii care recunosc modelele de date pentru a permite predicții, inteligența artificială poate adăuga valoare afacerii dumneavoastra prin: oferirea unei înțelegeri mai cuprinzătoare a abundenței datelor disponibile bazarea pe predicții pentru a automatiza activități excesiv de complexe sau de rutină.
+Tehnologia inteligența artificială îmbunătățește performanța și productivitatea la nivel enterprise, prin automatizarea proceselor sau activităților care necesitau odată o intervenție umană.
+Inteligența artificială poate, de asemenea, da semnificație datelor la o scară la care niciun om nu a putut vreodată.
+Această funcționalitate poate aduce beneficii substanțiale pentru afaceri.
+De exemplu, Netflix utilizează machine learning pentru a oferi un nivel de personalizare care a ajutat compania să își dezvolte baza de clienți cu mai mult de 25% în 2017.
+Majoritatea companiilor au făcut din știința datelor o prioritate și investesc foarte mult în acest domeniu.
+Directorii IT intervievați privesc aceste tehnologii ca fiind cele mai strategice pentru companiile lor; prin urmare, ele atrag cele mai noi investiții.
+Inteligența artificială are valoare pentru majoritatea funcțiilor, afacerilor și domeniilor.
+Inteligența artificială include aplicații generale și specifice domeniului, cum ar fi: utilizarea datelor tranzacționale și demografice pentru a anticipa cât vor cheltui anumiți clienți pe parcursul relației lor cu o afacere (sau valoarea ciclului de colaborare al clientului, optimizarea prețurilor pe baza comportamentului și preferințelor clienților, utilizarea recunoașterii imaginilor pentru analiza imaginilor cu raze X, în vederea depistării semnelor de cancer.

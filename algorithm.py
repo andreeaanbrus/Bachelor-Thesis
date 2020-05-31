@@ -3,9 +3,9 @@ from datetime import datetime
 
 from clustering.myHierarchicalClustering import MyHierarchicalClustering
 from clustering.myKMeans import MyKMeans
-from clustering.similarity import euclidean, cosine
+from clustering.similarity import euclidean, cosine, customSimilarity
 from frequentTerms import termFrequency
-from myutils import zero_vector
+from myutils import zero_vector, myround
 from removeSentences import removeSentences
 from vectorRepresentationOfSentences import vectorRepresentationOfSentences
 
@@ -21,11 +21,9 @@ class Algorithm:
     def do(self):
         noClusters = 3
         if self.compression == 30:
-            noClusters = math.ceil(len(self.input_text.split('\n')) * 0.3)
-            print(noClusters, len(self.input_text.split('\n')))
+            noClusters = int(myround(len(self.input_text.split('.')) * 0.3))
         if self.compression == 50:
-            noClusters = math.floor(len(self.input_text.split('\n')) * 0.5)
-            print(noClusters, len(self.input_text.split('\n')))
+            noClusters = int(myround(len(self.input_text.split('.')) * 0.5))
         start1 = datetime.now()
         (no_of_most_frequent_terms, termsFrequency, word_to_lemma, title_lemma) = termFrequency(self.input_text,
                                                                                                 self.title)
@@ -46,11 +44,11 @@ class Algorithm:
             if zero_vector(sentence.representation):
                 sentences.remove(sentence)
 
-        # # 6.Apply the hierarchical clustering algorithm for T = {S1; … ; Sn}
+        # 6.Apply the hierarchical clustering algorithm for T = {S1; … ; Sn}
         labels = None
         if self.method == 'hierarchical':
             start3 = datetime.now()
-            cluster = MyHierarchicalClustering(noClusters=noClusters, similarity=cosine, input=[sentence.representation for sentence in sentences])
+            cluster = MyHierarchicalClustering(noClusters=noClusters, similarity=customSimilarity, input=[sentence.representation for sentence in sentences])
             labels = cluster.predict()
             stop3 = datetime.now()
             print("Clustering time: ", stop3 - start3)
@@ -60,10 +58,11 @@ class Algorithm:
             labels, centroids = cluster.predict()
             stop3 = datetime.now()
             print("Clustering time: ", stop3 - start3)
+
         for i in range(len(labels)):
             sentences[i].label = labels[i]
-        for sentence in sentences:
-            print(sentence)
+
+        # 7.Construct the summary
         summary = ''
         summary_positions = [-100 for _ in range(noClusters)]
         summary_rank = [-100 for _ in range(noClusters)]

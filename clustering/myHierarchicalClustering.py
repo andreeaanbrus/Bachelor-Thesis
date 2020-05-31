@@ -73,12 +73,13 @@ class MyHierarchicalClustering:
                     points.append((distance, i, j))
             points.sort(key=lambda object: object[0])
             operations = len(self.input) - self.noClusters
-            for distance, x, y in points:
-                if self.getClusterRoot(x) != self.getClusterRoot(y):
-                    self.mergeClustersSingle(self.getClusterRoot(x), self.getClusterRoot(y))
-                    operations -= 1
-                if operations == 0:
-                    break
+            if operations > 0:
+                for distance, x, y in points:
+                    if self.getClusterRoot(x) != self.getClusterRoot(y):
+                        self.mergeClustersSingle(self.getClusterRoot(x), self.getClusterRoot(y))
+                        operations -= 1
+                    if operations == 0:
+                        break
             notNormalizedResult = []
             for i in range(len(self.input)):
                 notNormalizedResult.append(self.getClusterRoot(self.roots[i]))

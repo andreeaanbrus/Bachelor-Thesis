@@ -8,24 +8,24 @@ Modul de manifestare, durata, intensitatea şi consecinţele acestor fenomene su
 Fenomenele meteo climatice de risc sunt cu atât mai periculoase, cu cât contrastul termobaric este mai mare şi cu cât se produc mai mult în afara sezonului lor caracteristic.
 Ca repere, pentru evoluţia climei din România prezentăm în continuare câteva recorduri meteo-climatice.
 Aceste fenomene meteo climatice extreme la care ne referim au o dublă însuşire: de hazard meteo-climatic, cu grad mare de a produce pagube, şi de record meteo-climatic.
-Încălzirea masivă din vara anului 2000 a provocat o secetă drastică, înregistrându-se şi valoarea maximă absolută a lunii iulie de 43.5° C din data de 5 ale lunii pentru România (vechea maximă absolută fiind de 42.9° C, înregistrată la data de 05.07.1916).
+Încălzirea masivă din vara anului 2000 a provocat o secetă drastică, înregistrându-se şi valoarea maximă absolută a lunii iulie de 43,5° C din data de 5 ale lunii pentru România (vechea maximă absolută fiind de 42,9° C, înregistrată la data de 05 iulie 1916).
 Seceta a evoluat lent în primele trei luni ale anului 2000, cu o împrimăvărare timpurie în cursul lunii februarie, iar la sfârşitul lunii aprilie au apărut şi brumele târzii.
  Lunile aprilie şi mai au înregistrat precipitaţii puţine, iar în lunile iunie, iulie şi august s-a manifestat o perioadă de caniculă prelungită.
-Pentru prima dată guvernul României a fost pus în situația de a da Ordonanţa de Urgenţă nr. 99/2000, publicată în Monitorul Oficial 304/04.07.2000, privind măsurile de protecţie a populaţiei în cazul fenomenelor meteo climatice extreme.
+Pentru prima dată guvernul României a fost pus în situația de a da Ordonanţa de Urgenţă nr. 99/2000, publicată în Monitorul Oficial 304/2000, privind măsurile de protecţie a populaţiei în cazul fenomenelor meteo climatice extreme.
  În seara zilei de 12 iulie s-au observat fulgere sub forma de „pânză de păianjeni”, fenomen specific regiunilor tropicale.
  Deficitul de precipitaţii, uscăciunea şi seceta au produs însemnate pagube materiale şi victime umane.
 Punctul culminant din punct de vedere al secetelor din România, ca durată, intensitate şi efecte, a fost seceta din perioada 1945 – 1946, fiind vârful dezastrelor pentru agricultura din secolul XX ( producţia agricolă a fost de: 379 kg/ha de grâu, 175 kg/ha de porumb, 360 kg/ha de floarea soarelui ).
 Precipitaţiile excedentare din primăvara anului 1970 s-au produs pe fondul mai multor tipuri de circulaţie: intervalele ianuarie-aprilie şi 1-10 mai s-au caracterizat printr-o circulaţie nord-vestică, care în partea de vest a României a provocat precipitaţii sub formă de ploaie şi ninsoare în cantităţi mai mari de 200 de mm, iar la munte de 300 mm, depunându-se un strat de zăpadă de 1 m până la 3 m grosime pe văi;
 Intervalul 11-12 mai s-a caracterizat printr-o circulaţie sudică, ce a topit brusc stratul de zăpadă depus la munte, concomitent cu ploi bogate din regiunile extracarpatice.
 La postul meteorologic Seini, din judeţul Maramureş, în intervalul de timp 12-15 mai 1970, la o altitudine de 145 m, s-au înregistrat 200 mm de precipitații.
- Efectele sociale, economice, ecologice ale inundaţiilor din anul 1970 au fost dezastruoase: 256000 persoane şi 460000 de animale evacuate, 83 de localităţi au fost puternic afectate şi 1528 parţial afectate, 13070 de case complet distruse, 11% din suprafaţă agricolă a ţării a fost afectată, 2.200 de poduri distruse, etc.
+ Efectele sociale, economice, ecologice ale inundaţiilor din anul 1970 au fost dezastruoase: 256000 persoane şi 460000 de animale evacuate, 83 de localităţi au fost puternic afectate şi 1528 parţial afectate, 13070 de case complet distruse, 11% din suprafaţă agricolă a ţării a fost afectată, 2200 de poduri distruse, etc.
  Pagubele evaluate în urma inundaţiilor din anul 1970 au ajuns la 10 miliarde de lei.
  Un an asemănător anului 1970, din punct de vedere al precipitaţiilor excedentare, este anul 2005, când s-au depăşit cu cel puţin 50% cantităţile normale de precipitaţii.
 S-au produs şase valuri de inundaţii, ce s-au soldat cu pagube materiale estimate la peste 1 miliard de euro şi 62 de victime umane.
 Ploile torenţiale sunt cauzate de dinamica foarte activă a aerului umed tropical sau maritim polar peste teritoriul României, încălzirea inegală a suprafeţei terestre şi interacţiunea cu aceasta din sezonul cald al anului.
  Aversele de ploaie cu caracter torenţial dau o mare cantitate de apă în timp foarte scurt, fapt care implică o mare intensitate acestor ploi.
 Aversele cele mai puternice se produc în regiunile cele mai aride din ţară, recordul fiind ploaia produsă la Viziru, în Bărăgan,  în data de 27/05/1939 care a avut intensitatea medie de 6 mm/min şi o durată de 3 minute, înregistrându-se 19 l/mp.
- În acelaşi timp, în localitatea Iazu s-a produs o aversă cu intensitatea medie de 5.74 mm/min şi cu o cantitate de 28.5 l/mp căzută pe un interval de 5 minute.
+ În acelaşi timp, în localitatea Iazu s-a produs o aversă cu intensitatea medie de 57,4 mm/min şi cu o cantitate de 28,5 l/mp căzută pe un interval de 5 minute.
 În urma acestor ploi torenţiale se produc efecte grave asupra solului prin eroziune şi spălarea substanţelor nutritive, distrugând şi culturile agricole.
 Norii Cumulonimbus (Cb)  reprezintă sursa de dezvoltare a unei game largi de fenomene meteo climatice extreme (tornade, vijelii, grindină), datorită energiei deosebite pe care o conţin.
  Au o mare dezvoltare pe verticală, dar şi pe orizontală, constituindu-se în adevărate „supercelule de furtună”.
@@ -46,5 +46,5 @@ Grindina are cea mai mare frecvenţă de producere în perioada aprilie – octo
  Dimensiunea greloanelor de grindină a fost cuprinsă între 5 mm şi până la mărimea unui ou de porumbel (circa 4 – 5 cm), iar cantitatea de grindină a fost atât de mare (20 – 30 cm) încât stratul de grindină format a rezistat pe sol până a doua zi la prânz.
 Durata grindinei a fost de 20 – 25 minute, iar cea a ploii de circa 2 ore.
  Au fost distruse în totalitate culturile, iar pomii şi viţa de vie au fost defoliaţi.
-Cea mai intensă grindină s-a produs în Oltenia, pe data de 02.06.1995 care a făcut pagube considerabile, iar greloanele de grindină au fost de mărimea unui ou de gâscă, spărgând țiglă de pe case sau geamurile autoturismelor în unele localităţi (Băileşti).
+Cea mai intensă grindină s-a produs în Oltenia, pe data de 02 iunie 1995 care a făcut pagube considerabile, iar greloanele de grindină au fost de mărimea unui ou de gâscă, spărgând țiglă de pe case sau geamurile autoturismelor în unele localităţi (Băileşti).
 Intensitatea acesteia a fost consecinţa unui contrast termic între masele de aer din faţa şi spatele frontului atmosferic de 10 – 12° C, iar scăderea maximă de temperatură a fost de 11° C într-o oră.

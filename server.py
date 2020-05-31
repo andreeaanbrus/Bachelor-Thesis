@@ -17,7 +17,7 @@ def summarize_example(input_id, method, compression):
         input_text = f.read()
         print(input_text)
     algorithm = Algorithm(input_text, method, compression, summaryFile, title)
-    sentences, summaryResponse = algorithm.do()
+    sentences, summaryResponse, summary_sentences_indexes = algorithm.do()
     res = {
         "title": title,
         "input": input_text,
@@ -39,7 +39,7 @@ def summarize(method, compression):
     title = request.get_json()['title']
     input_text = request.get_json()['input_text']
     algorithm = Algorithm(input_text, method, compression, summaryFile, title)
-    sentences, summaryResponse = algorithm.do()
+    sentences, summaryResponse, summary_sentences_indexes = algorithm.do()
     res = {
         "summary": summaryResponse
     }

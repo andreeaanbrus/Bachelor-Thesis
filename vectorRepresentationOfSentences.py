@@ -12,21 +12,21 @@ def vectorRepresentationOfSentences(sentences, most_frequent_terms, no_of_most_f
     :param sentences:
     :return: the vectors
     """
-    rank = [0 for _ in range(len(sentences))]
-    vector_representation = [[0 for _ in range(no_of_most_frequent_terms)] for _ in range(len(sentences))]
-    rank[0] = 10  # first sentence is more important
-    for i in range(len(sentences)):
-        words = [word.strip(string.punctuation) for word in sentences[i].split()]
+    for sentence in sentences:
+        sentence.representation = [0 for _ in range(no_of_most_frequent_terms)]
+        if sentence.id == 0:
+            sentence.rank += 10  # first sentence is more important
+        # 4. Remove the longest/shortest sentences (sentences over 20 words, under 10 words)
+        words = [word.strip(string.punctuation) for word in sentence.text.split()]
         words = [x for x in words if x]
         for k in range(len(words)):
             if words[k] in word_to_lemma.keys():
                 if word_to_lemma[words[k]]['upos'] == 'PROPN':
-                    rank[i] += 1
+                    sentence.rank += 1
                 if word_to_lemma[words[k]]['upos'] == 'PRON':
-                    rank[i] -= 0.5
+                    sentence.rank -= 0.5
                 if word_to_lemma[words[k]]['lemma'] in title_lemma:
-                    rank[i] += 5
+                    sentence.rank += 5
                 for j in range(no_of_most_frequent_terms):
                     if word_to_lemma[words[k]]['lemma'] == most_frequent_terms[j]:
-                        vector_representation[i][j] += 1
-    return vector_representation, rank
+                        sentence.representation[j] += 1

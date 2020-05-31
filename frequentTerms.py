@@ -50,5 +50,4 @@ def termFrequency(input, title):
     most_frequent_terms = list(sortedTerms.keys())
     no_of_most_frequent_terms = len(most_frequent_terms)  # m
     fout.close()
-    print(nlp_word_to_lemma)
     return no_of_most_frequent_terms, most_frequent_terms, nlp_word_to_lemma, title_lemma

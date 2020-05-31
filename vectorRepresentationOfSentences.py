@@ -1,7 +1,8 @@
 import string
 
 
-def vectorRepresentationOfSentences(sentences, most_frequent_terms, no_of_most_frequent_terms, word_to_lemma, title_lemma):
+def vectorRepresentationOfSentences(sentences, most_frequent_terms, no_of_most_frequent_terms, word_to_lemma,
+                                    title_lemma):
     """
     4. Represent each sentence Si by m-vectors v[i] = {f(i, t1), f(i, t2), ... f(i, tm)}.
     :param title_lemma:
@@ -13,6 +14,7 @@ def vectorRepresentationOfSentences(sentences, most_frequent_terms, no_of_most_f
     """
     rank = [0 for _ in range(len(sentences))]
     vector_representation = [[0 for _ in range(no_of_most_frequent_terms)] for _ in range(len(sentences))]
+    rank[0] = 10  # first sentence is more important
     for i in range(len(sentences)):
         words = [word.strip(string.punctuation) for word in sentences[i].split()]
         words = [x for x in words if x]
@@ -28,4 +30,3 @@ def vectorRepresentationOfSentences(sentences, most_frequent_terms, no_of_most_f
                     if word_to_lemma[words[k]]['lemma'] == most_frequent_terms[j]:
                         vector_representation[i][j] += 1
     return vector_representation, rank
-

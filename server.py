@@ -1,85 +1,10 @@
-from datetime import datetime
-
-from flask import Flask, jsonify, json, request
+from flask import Flask, json, request
 from flask_cors import CORS
-from sklearn.cluster import AgglomerativeClustering
-from sklearn.metrics import pairwise_distances
 
-from clustering.myHierarchicalClustering import MyHierarchicalClustering
-from clustering.myKMeans import MyKMeans
-from clustering.similarity import cosine, customSimilarity, euclidean
-from frequentTerms import termFrequency
-from myutils import zero_vector
-from removeSentences import removeSentences
-from vectorRepresentationOfSentences import vectorRepresentationOfSentences
+from algorithm import Algorithm
 
 app = Flask(__name__)
 CORS(app)
-
-
-def sim_affinity_cosine(X):
-    return pairwise_distances(X, metric=cosine)
-
-
-def algorithm(input_text, method, compression, summary_file, title):
-    noClusters = 3
-    if compression == 30:
-        noClusters = int(len(input_text.split('.')) * 0.3)
-    if compression == 50:
-        noClusters = int(len(input_text.split('.')) * 0.5)
-    print(noClusters)
-    start1 = datetime.now()
-    (no_of_most_frequent_terms, termsFrequency, word_to_lemma, title_lemma) = termFrequency(input_text, title)
-    stop1 = datetime.now()
-    print("Term frequency and lemmatization time: ", stop1 - start1)
-    start2 = datetime.now()
-    # 4. Remove the longest/shortest sentences (sentences over 20 words, under 10 words)
-    sentences = removeSentences(input_text, '.')
-    mostFrequentTerms = termsFrequency[:no_of_most_frequent_terms]
-
-    vectorRepresentation, rank = vectorRepresentationOfSentences(sentences, mostFrequentTerms, no_of_most_frequent_terms,
-                                                           word_to_lemma, title_lemma)
-    stop2 = datetime.now()
-    print("Vector representation time: ", stop2 - start2)
-
-    # 5. Remove zero-vectors
-    for vector in vectorRepresentation:
-        if zero_vector(vector):
-            vectorRepresentation.remove(vector)
-    # 6.Apply the hierarchical clustering algorithm for T = {S1; … ; Sn}
-    labels = None
-    if method == 'hierarchical':
-        start3 = datetime.now()
-        cluster = MyHierarchicalClustering(noClusters=noClusters, similarity=cosine, input=vectorRepresentation)
-        labels = cluster.predict()
-        stop3 = datetime.now()
-        print("Clustering time: ", stop3 - start3)
-    if method == 'kmeans':
-        start3 = datetime.now()
-        cluster = MyKMeans(noClusters=noClusters, input=vectorRepresentation, similarity=euclidean)
-        labels, centroids = cluster.predict()
-        stop3 = datetime.now()
-        print("Clustering time: ", stop3 - start3)
-    summary = {}
-    summary_positions = [-100 for _ in range(noClusters)]
-    summary_rank = [-100 for _ in range(noClusters)]
-    for i in range(len(sentences)):
-        if rank[i] > summary_rank[labels[i]]:
-            summary_positions[labels[i]] = i
-            summary_rank[labels[i]] = rank[i]
-
-    # sort the summary_positions to assure the cronological order of the sentences
-
-    summary_positions.sort()
-    for pos in summary_positions:
-        summary[pos] = sentences[pos]
-    summaryResponse = ''
-    fout = open(summary_file, "w")  # write summary here
-    for index, sentence in summary.items():
-        summaryResponse += sentence
-        fout.write(sentence)
-    fout.close()
-    return sentences, summaryResponse
 
 
 @app.route('/summarize-example/<int:input_id>/<string:method>/<int:compression>')
@@ -91,7 +16,8 @@ def summarize_example(input_id, method, compression):
         print(title)
         input_text = f.read()
         print(input_text)
-    sentences, summaryResponse = algorithm(input_text, method, compression, summaryFile, title)
+    algorithm = Algorithm(input_text, method, compression, summaryFile, title)
+    sentences, summaryResponse = algorithm.do()
     res = {
         "title": title,
         "input": input_text,
@@ -112,7 +38,8 @@ def summarize(method, compression):
     print(request.get_json())
     title = request.get_json()['title']
     input_text = request.get_json()['input_text']
-    sentences, summaryResponse = algorithm(input_text, method, compression, summaryFile, title)
+    algorithm = Algorithm(input_text, method, compression, summaryFile, title)
+    sentences, summaryResponse = algorithm.do()
     res = {
         "summary": summaryResponse
     }

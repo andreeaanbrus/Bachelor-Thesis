@@ -1,13 +1,11 @@
 import math
 
 import numpy as np
-from sklearn.metrics import pairwise_distances
 
 
 def customSimilarity(a, b):
     numerator = 0
     denominator = 0
-    # len(a) == len(b)
     for i in range(len(a)):
         numerator += min(a[i], b[i])
         denominator += max(a[i], b[i])

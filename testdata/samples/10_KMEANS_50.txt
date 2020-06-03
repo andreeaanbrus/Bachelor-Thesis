@@ -1,0 +1,52 @@
+Bateria cu protoni
+S1: Multe dintre electronicele moderne, de la sculele electrice şi până la automobilele electrice, utilizează baterii Li-ion.
+S2: Cu toate acestea, dominația litiului în ceea ce priveşte construcţia bateriilor electrice s-ar putea încheia în curând.
+S3: Cercetătorii de la RMIT University din Melbourne, Australia, au creat prototipul unei baterii care funcţionează pe bază de carbon și apă.
+S4: Aceasta reprezintă prima baterie reîncărcabilă cu protoni ce utilizează materiale ieftine, ecologice.
+S5: Bateria cu protoni poate fi conectată la o sursă de alimentare la fel ca orice altă baterie reîncărcabilă.
+S6: Energia electrică din sursa de alimentare descompune moleculele de apă şi generează protoni care se leagă cu carbonul din electrodul bateriei.
+S7: Protonii sunt apoi eliberați din nou şi trec printr-o pilă de combustie unde interacționează cu aerul și formează apă.
+S8: Conform unui comunicat de presă al RMIT University, experimentele au arătat că o baterie cu protoni de mici dimensiuni, având o suprafață activă de numai 5,5 centimetri pătrați, poate stoca mai multă energie electrică decât bateriile Li-ion disponibile în comerț.
+S9: Mineritul necesar extragerii litiului şi a altor metale rare, care sunt utilizate în construcţia bateriilor tradiţionale, poate avea o serie de consecințe nedorite asupra mediului ambiant, inclusiv poluarea cu substanțe chimice a unor ecosisteme sau defrişări de vegetație.
+S10: De asemenea, obţinerea unor materiale conductoare de calitate necesită o cantitate semnificativă de energia electrică rezultată în urma arderii combustibililor fosili.
+S11: Din acest motiv, tehnologia de realizare a bateriilor cu protoni se dovedeşte a fi ecologică, deoarece obţinerea carbonului și a apei, care sunt necesare pentru realizarea acestui nou tip de baterie, are un impact aproape zero asupra mediului ambiant.
+S12: Cercetătorii de la RMIT University estimează că bateria pe bază de protoni ar putea fi disponibilă comercial în decurs de cinci până la zece ani şi atunci aceasta va concura cu bateria Powerwall  produsă de compania Tesla.
+S13: Bateria, care este încă la stadiul de prototip, ar putea fi folosită în stocarea electricității de la panouri fotovoltaice în gospodării.
+S14: 
+
+-------------MOST FREQUENT TERMS-------------
+baterie proton putea apă utiliza RMIT University carbon energie avea litiu construcţie cercetător prototip bază material sursă alimentare mediu obţinere 
+
+-----------VECTOR REPRESENTATION-------------
+S1: [1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 14.5
+S2: [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 3.0
+S3: [1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0]    with rank 8.5
+S4: [1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]    with rank 9.0
+S5: [2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0]    with rank 15
+S6: [1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0]    with rank 9.0
+S7: [0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 5
+S10: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1]    with rank 0
+S13: [1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]    with rank 4.5
+
+-------CLUSTERS KMEANS--------
+c0 1, 4, 
+c1 2, 
+c2 3, 
+c3 5, 
+c4 6, 
+c5 7, 10, 
+c6 13, 
+
+-----LABELS---------
+[0, 1, 2, 0, 3, 4, 5, 5, 6]
+
+-----CENTROIDS------
+[2. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 0. 0.]
+[1. 0. 1. 0. 0. 0. 0. 0. 0. 0. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0.]
+[0.  0.5 0.  0.5 0.  0.  0.  0.  0.5 0.  0.  0.  0.  0.  0.  0.5 0.  0.
+ 0.  0.5]
+[1.  0.5 0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.5 0.  0.
+ 0.  0. ]
+[1. 1. 0. 1. 0. 0. 0. 1. 1. 0. 0. 0. 0. 0. 0. 0. 1. 1. 0. 0.]
+[1. 0. 0. 1. 0. 1. 1. 1. 0. 1. 0. 0. 1. 1. 1. 0. 0. 0. 0. 0.]
+[1. 0. 1. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0.]

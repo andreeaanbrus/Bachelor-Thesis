@@ -1,0 +1,36 @@
+Economisiți bani, ocrotiți mediul și mențineți flota în mișcare
+S1: Soluția ecologică nu este doar un cuvânt pentru Piaggio, ci o filozofie cu origini vechi.
+S2: Începând din 1995, Porter a venit cu o premieră în domeniu, oferind o versiune 100% electrică.
+S3: Pentru un vehicul utilitar, grija pentru mediu nu este doar o alegere etică, ci un factor important în succesul unei afaceri.
+S4: Astfel de vehicule comerciale oferă, pe lângă economia de carburant, și soluții din ce în ce mai eficiente pentru noile reglementări de circulație, care interzic din ce în ce mai mult accesul vehiculelor poluante în centrele istorice și în alte zone sensibile la poluare.
+S5: Cele două variante cu carburant sunt alimentate de un motor pe benzină, cu capacitate de 1,299cc, cu 4 cilindri, cu injecție electronică de combustibil, derivată din unitatea de benzină Euro 6 de înaltă tehnologie Multitech.
+S6: În timp ce permit accesul în zone supuse restricțiilor impuse de legislația emisiilor scăzute, vehiculele Porter dispun de asemenea de un rezervor de benzină cu dimensiuni normale care extinde în mod semnificativ autonomia lor, cu posibilitatea de a utiliza ambii combustibili atunci când este necesar.
+S7: Cu vehiculele cu emisii reduse și varianta ElectricPower cu zero emisii, Piaggio permite companiilor care operează în aceste zone să-și mențină activitatea, oferind în același timp un instrument eficient pentru autoritățile locale de a promova aceste noi reglementări de mediu.
+S8: Cu o gamă largă de versiuni și modele, Piaggio oferă soluții pentru toate aplicațiile standard.
+S9: Flexibilitatea extraordinară a acestor vehicule în vederea carosării face posibilă dezvoltarea unor configurații personalizate pentru nevoi mai specifice.
+S10: Versiunea electrică este vehiculul comercial cu emisii zero care a răspuns nevoii de mobilitate ecologică de peste 20 de ani și mai ales în centrele istorice ale orașelor închise traficului normal ca măsură fără emisie.
+S11: Dispunând de un pachet de baterii generos, sistemul de propulsie asigură performanțe remarcabile, reducând dramatic emisiile de zgomot în centrele urbane.
+S12: În plus față de avantajele evidente ale costurilor de consum reduse, acest vehicul oferă, de asemenea, acces nelimitat la zonele închise traficului cu motor cu ardere internă.
+S13: Oferind o tehnologie avansată, Piaggio Porter Electric este un vehicul utilitar, 100% curat, care satisface o gamă largă pentru diverse nevoi de mobilitate de peste 20 de ani, oferind în același timp economii extraordinare în toate costurile de funcționare.
+S14: 
+
+-------------MOST FREQUENT TERMS-------------
+vehicul oferi emisie Piaggio zonă soluție versiune acces centru timp nevoie Porter mediu economie carburant reglementare variantă motor benzină tehnologie permite dispune gamă mobilitate an trafic cost 
+
+-----------VECTOR REPRESENTATION-------------
+S1: [0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 11
+S2: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 0
+S3: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 5
+S8: [0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]    with rank 1
+S9: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 0
+S11: [0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]    with rank 0
+S12: [1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1]    with rank 0
+
+-------CLUSTERS HIERARCHICAL-----
+c0 1, 
+c1 2, 
+c2 3, 
+c3 8, 
+c4 9, 
+c5 11, 
+c6 12, 

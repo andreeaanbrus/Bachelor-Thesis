@@ -1,0 +1,109 @@
+Istoria calculatorului
+S1: Un calculator, numit și sistem de calcul, computer sau ordinator, este o mașină de prelucrat date și informații conform unei liste de instrucțiuni numită program.
+S2: În zilele noastre calculatoarele se construiesc în mare majoritate din componente electronice și de aceea cuvântul „calculator” înseamnă de obicei un calculator electronic.
+S3: Calculatoarele care sunt programabile liber și pot, cel puțin în principiu, prelucra orice fel de date sau informații se numesc universale .
+S4: Calculatoarele actuale nu sunt doar mașini de prelucrat informații, ci și dispozitive care facilitează comunicația între doi sau mai mulți utilizatori, de exemplu sub formă de numere, text, imagini, sunet sau video sau chiar toate deodată.
+S5: Știința prelucrării informațiilor cu ajutorul calculatoarelor se numește informatică.
+S6: Tehnologia necesară pentru folosirea lor poartă numele Tehnologia Informației, prescurtat TI sau IT.
+S7: În principiu, orice calculator care deține un anumit set minimum de funcții poate îndeplini funcțiile oricărui alt asemenea calculator, indiferent că este vorba de un PDA sau de un supercalculator.
+S8: Această compatibilitate a condus la folosirea calculatoarelor cu arhitecturi asemănătoare pentru cele mai diverse activități, de la calculul salarizării personalului unei companii până la controlul roboților industriali sau medicali (calculatoare universale).
+S9: Cel mai vechi mecanism cunoscut care se pare că putea funcționa ca o mașină de calculat se consideră a fi mecanismul din Antikythira, datând din anul 87 î e n și folosit aparent pentru calcularea mișcărilor planetelor.
+S10: Tehnologia care a stat la baza acestui mecanism nu este cunoscută.
+S11: Odată cu revigorarea matematicii și a științelor în timpul Renașterii europene au apărut o succesiune de dispozitive mecanice de calculat, bazate pe principiul ceasornicului.
+S12: Tehnica de stocare și citire a datelor pe cartele perforate a apărut în secolul al XIX-lea.
+S13: În același secol, Charles Babbage este cel dintâi care proiectează o mașină de calcul complet programabilă, însă din păcate proiectul său nu va prinde roade, în parte din cauza limitărilor tehnologice ale vremii.
+S14: În prima jumătate a secolului al XX-lea, nevoile de calcul ale comunității științifice erau satisfăcute de calculatoare analoage, foarte specializate și din ce în ce mai sofisticate.
+S15: Perfecționarea electronicii digitale (datorată lui Claude Shannon în anii 1930) a condus la abandonarea calculatoarelor analogice în favoarea celor digitale, care modelează problemele în numere în loc de semnale electrice sau mecanice.
+S16: Este greu de precizat care a fost primul calculator digital.
+S17: Realizări notabile au fost: calculatorul Atanasoff-Berry, mașinile Z ale germanului Konrad Zuse - de exemplu calculatorul electromecanic Z3, care, deși foarte nepractic, a fost probabil cel dintâi calculator universal.
+S18: Apoi calculatorul ENIAC cu o arhitectură relativ inflexibilă care cerea modificări ale cablajelor la fiecare reprogramare, precum și calculatorul secret britanic Colossus, construit pe bază de lămpi și programabil electronic.
+S19: Echipa de proiectare a ENIAC-ului, recunoscând neajunsurile acestuia, a elaborat o altă arhitectură, mult mai flexibilă, care a ajuns cunoscută sub numele de arhitectura von Neumann sau „arhitectură cu program memorat“.
+S20: Primul sistem construit pe arhitectura von Neumann a fost EDSAC.
+S21: În anii 1960 lămpile (tuburile electronice) au fost înlocuite de tranzistori, mult mai eficienți, mai mici, mai ieftini și mai fiabili, ceea ce a dus la miniaturizarea și ieftinirea calculatoarelor.
+S22: Din anii 1970, adoptarea circuitelor integrate a coborât și mai mult prețul și dimensiunea calculatoarelor, permițând printre altele și apariția calculatoarelor personale de acum.
+S23: Deși design-ul și performanțele calculatoarelor s-au îmbunătățit dramatic în comparație cu anii 1940, principiile arhitecturii von Neumann sunt în continuare la baza aproape tuturor mașinilor de calcul contemporane, denumită după renumitul matematician austro-ungar John von Neumann.
+S24: Această arhitectură descrie un calculator cu patru module importante: unitatea aritmetică - logică, unitatea de control, memoria centrală și dispozitivele de intrare/ieșire.
+S25: Acestea sunt interconectate cu un mănunchi de fire numit magistrală pe care circulă datele de calcul și datele de program și sunt conduse în tactul unui ceas.
+S26: Conceptual, memoria unui calculator poate fi văzută ca o mulțime de „celule“ numerotate.
+S27: Fiecare celulă primește drept adresă un număr unic propriu; ele pot înmagazina o cantitate mică, prestabilită de informație, informația poate fi ori o instrucțiune, ori date propriu-zise.
+S28: Instrucțiunile spun calculatorului ce să facă, iar datele sunt acele informații care trebuie prelucrate conform cu instrucțiunile.
+S29: În principiu orice celulă poate stoca atât instrucțiuni cât și date.
+S30: Interesant este și cazul când una sau mai multe instrucțiuni, deja stocate în memorie, sunt privite de către alte instrucțiuni drept date de prelucrat/modificat și sunt deci ele însele modificate dinamic după necesitate.
+S31: Principiile de mai sus pot fi implementate cu o varietate de tehnologii.
+S32: Mașina lui Babbage era alcătuită din componente mecanice.
+S33: Însă singura asemenea tehnologie care s-a dovedit suficient de practică este cea a circuitelor digitale (numerice), circuite electronice care pot efectua operații din algebra booleană și aritmetica binară.
+S34: Dar primele „circuite” digitale foloseau relee electromecanice pentru a reprezenta stările "0" (blocat) și "1" (conducție), aranjate în porți logice.
+S35: Releele au fost repede înlocuite cu lămpi electronice - tuburi electronice cu vid, dispozitive 100% electronice, folosite până atunci în electronica analogă pentru proprietățile lor de amplificare, dar care au putut fi utilizate și drept comutatoare (elemente de bază în construcția calculatoarelor) de stare, 1→0 sau 0→1.
+S36: Lămpile electronice erau caracterizate de câteva limitări severe în folosirea lor pentru construcția porților logice: erau scumpe, puțin fiabile, ocupau mult spațiu și consumau cantități mari de curent.
+S37: Deși erau incredibil de rapide față de releele electromecanice, aveau și ele totuși o viteză de operare relativ limitată.
+S38: Astfel că începând din anii 1960 lămpile au fost înlocuite cu tranzistori, dispozitive ce funcționau asemănător, însă erau mult mai mici, mai rapide, mai fiabile, mai puțin consumatoare de curent și mult mai ieftine.
+S39: Din anii 1960-'70, tranzistorul a fost și el înlocuit cu circuitul integrat, care conținea mai mulți tranzistori, și firele de interconectare corespunzătoare, pe o singură plăcuță de siliciu.
+S40: Din anii '70, unitățile de control au fost produse unitar ca circuite integrate, numite microprocesoare.
+S41: În timp, densitatea tranzistorilor din circuitele integrate a crescut incredibil, de la câteva zeci, în anii 70, până la peste 100 de milioane de tranzistoare pe circuit integrat, la procesoarele Intel și AMD din anul 2005.
+S42: Lămpile electronice și tranzistoarele pot fi folosite și pentru construirea de memorii - așa-numitele circuite flip-flop sau „basculante bistabile” (CBB), și chiar sunt folosite pentru mici circuite de memorie de mare viteză, numite „cu acces direct”.
+S43: Însă puține designuri de calculatoare au folosit bistabile pentru grosul nevoilor de memorie, memorii de amploare.
+S44: Primele calculatoare foloseau tuburi Williams - în esență proiectând puncte pe un ecran TV și citindu-le din nou mai târziu, sau linii de mercur, în care datele erau depozitate sub formă de unde sonore care parcurgeau tuburi cu mercur la viteză mică (comparativ cu viteza de operare a mașinii).
+S45: Aceste metode destul de neproductive au fost înlocuite cu dispozitive de stocare (memorare) în mediu purtător magnetic, de exemplu memoria cu miezuri magnetice de formă inelară, în care un curent electric era folosit pentru a induce un câmp magnetic remanent (dar slab) într-un material feros, care putea fi citit ulterior, după necesitate pentru a folosi datele.
+S46: În cele din urmă a apărut memoria carel este format din bănci (mulțimi grupate) de condensatori, componente electrice care pot reține o sarcină electrică pentru o anumită durată de timp.
+S47: Scrierea informației într-o astfel de memorie se face prin încărcarea condensatorilor cu o anumită sarcină electrică, iar citirea prin determinarea („măsurarea”) sarcinii acestora (dacă este încărcat sau descărcat).
+S48: 
+
+-------------MOST FREQUENT TERMS-------------
+calculator putea dată an memorie informație folosi mașină calculatoet arhitectură circuit instrucțiune tranzistor calcul dispozitiv lampă înlocui prelucra principiu tehnologie fi bază von tub viteză program calculatoarea construi componente exemplu formă număr folosire conduce control timp apărea secol Neumann curent sarcină sistem numi știință nume calculatoare mecanism funcționa calculat cunoaște stocare citire Babbage proiecta limitare nevoie eniac design princip unitate mulțime celulă cantitate face stoca necesitate stare poartă rău construcție operare citi condensator 
+
+-----------VECTOR REPRESENTATION-------------
+S1: [1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 15
+S2: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 4.0
+S3: [0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -1.0
+S5: [0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -0.5
+S6: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 1
+S10: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -0.5
+S11: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 0
+S12: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 0
+S14: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 4.0
+S16: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 4.5
+S17: [3, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 18.5
+S20: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 2
+S22: [0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -0.5
+S24: [1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 5
+S25: [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -1.0
+S26: [1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 5
+S27: [0, 2, 1, 0, 0, 2, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -0.5
+S28: [1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 4.0
+S29: [0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -0.5
+S31: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 0
+S32: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 1
+S33: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -1.5
+S34: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0]    with rank 0
+S36: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0]    with rank -0.5
+S37: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0]    with rank -0.5
+S39: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -1.0
+S40: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 0
+S43: [1, 0, 0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 5
+S47: [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1]    with rank -1.0
+
+-------CLUSTERS HIERARCHICAL-----
+c0 1, 11, 22, 34, 
+c1 2, 5, 6, 
+c2 3, 
+c3 10, 
+c4 12, 
+c5 14, 
+c6 16, 
+c7 17, 
+c8 20, 
+c9 24, 
+c10 25, 
+c11 26, 
+c12 27, 
+c13 28, 
+c14 29, 
+c15 31, 
+c16 32, 
+c17 33, 
+c18 36, 
+c19 37, 
+c20 39, 
+c21 40, 
+c22 43, 
+c23 47, 

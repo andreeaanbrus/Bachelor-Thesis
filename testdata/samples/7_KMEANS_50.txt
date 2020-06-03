@@ -1,0 +1,130 @@
+Energiile regenerabile
+S1: Energiile regenerabile sunt considerate în practică, energiile ce provin din surse care fie că se regenerează de la sine în scurt timp, fie sunt surse practic inepuizabile.
+S2: Termenul de energie regenerabilă se referă la forme de energie produse prin transferul energetic al energiei rezultate din procese naturale regenerabile.
+S3: Astfel, energia luminii solare, a vânturilor, a apelor curgătoare, a proceselor biologice și a căldurii geotermale pot fi captate de către oameni utilizând diferite procedee.
+S4: Sursele de energie care nu sunt regenerabile includ energia nucleară precum și energia generată prin arderea combustibililor fosili, așa cum ar fi țițeiul, cărbunele și gazele naturale.
+S5: Aceste resurse sunt, în chip evident, limitate la existența zăcămintelor respective și sunt considerate în general care nu sunt regenerabile.
+S6: Dintre sursele regenerabile de energie fac parte energia vântului, energia solară, energia apei, energia hidraulică, energia mareelor, energia flux/refluxului mărilor și oceanelor, energie potențială osmotică, energia geotermală, energie câștigată din căldura de adâncime a Pământului, energie de biomasă.
+S7: Toate aceste forme de energie sunt, în mod tehnic, valorificabile putând servi la generarea curentului electric, producerea de apă caldă, etc.
+S8: Actualmente ele sunt în mod inegal valorificate, dar există o tendință certă și concretă care arată că se investește insistent în această, relativ nouă, ramură energetică.
+S9: Energia eoliană este generată prin transferul energiei vântului unei turbine eoliene.
+S10: Vânturile se formează datorită încălzirii neuniforme a suprafeței Pământului de către energia radiată de Soare care ajunge la suprafața planetei noastre.
+S11: Această încălzire variabilă a straturilor de aer produce zone de aer de densități diferite, fapt care creează diferite mișcări ale aerului.
+S12: Energia cinetică a vântului poate fi folosită la antrenarea elicelor turbinelor, care sunt capabile de a genera electricitate.
+S13: Unele turbine eoliene sunt capabile de a produce până la 5 MW de energie electrică, deși acestea necesită o viteză constantă a vântului de aproximativ 5,5 m/s, sau 20 kilometri pe oră.
+S14: Energia solară se referă la energia care este direct produsă prin transferul energiei luminoase radiată de Soare.
+S15: Aceasta poate fi folosită ca să genereze energie electrică sau să încălzească aerul din interiorul unor clădiri.
+S16: Deși energia solară este reînnoibilă și ușor de produs, problema principală este că soarele nu oferă energie constantă în nici un loc de pe Pământ.
+S17: În plus, datorită rotației Pământului în jurul axei sale, și deci a alternanței zi - noapte, lumina solară nu poate fi folosită la generarea electricității decât pentru un timp limitat în fiecare zi.
+S18: O altă limitare a folosirii acestui tip de energie o reprezintă existența zilelor noroase, când potențialul de captare al energiei solare scade sensibil datorită ecranării Soarelui, limitând aplicațiile acestei forme de energie reînnoibilă.
+S19: Nu există nici un dezavantaj deoarece instalațiile solare aduc beneficii din toate punctele de vedere.
+S20: Panourile solare produc energie electrică 9h/zi (calculul se face pe minim; iarna ziua are 9 ore.
+S21: Ziua timp de 9 ore aceste panouri solare produc energie electrică și în același timp înmagazinează energie în baterii pentru a fi folosită noaptea.
+S22: Instalațiile solare sunt de 2 tipuri: termice și fotovoltaice.
+S23: Cele fotovoltaice produc energie electrică gratis.
+S24: Cele termice ajută la economisirea gazului în proporție de 75% pe an.
+S25: O casă care are la dispoziție ambele instalații solare (cu panouri fotovoltaice și termice în vid este considerată "fără facturi" deoarece energia acumulată ziua în baterii este trimisă în rețea.
+S26: Instalațiile solare funcționează chiar și atunci când cerul este înnorat.
+S27: Investițiile globale anuale în energia regenerabilă au crescut în ultimii ani de la 39 de miliarde de dolari în 2005 la 55 de miliarde de dolari în 2006.
+S28: Pentru anul 2007 investițiile au atins un nivel de 100 miliarde dolari.
+S29: În anul 2010, tehnologiile verzi au atras 243 miliarde de dolari în finanțări și investiții.
+S30: Directiva europeană din anul 2005, stabilește că până în 2020, UE trebuie să-și reducă cu 20% emisiile de noxe și să producă 20% din totalul energiei din surse regenerabile.
+S31: De asemenea statele Uniunii Europene trebuie să amestece treptat combustibilul tradițional utilizat în transport cu biocombustibil, astfel încât, până în 2010, biodieselul să reprezinte 5,75% din motorina de pe piață, urmând ca, în 2020, ponderea să crească la 20%.
+S32: 
+
+-------------MOST FREQUENT TERMS-------------
+energie produce vânt putea zi an sursă timp genera pământ soare folosi instalație considera formă transfer apă limita turbină oră panou investiție dolar referi proces lumină căldură utiliza combustibil fi gaz existență face mod generare exista încălzire radia aer electricitate tip reprezenta avea baterie crește trebui 
+
+-----------VECTOR REPRESENTATION-------------
+S1: [0, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 18.0
+S2: [3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -0.5
+S3: [1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 0
+S4: [3, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]    with rank -0.5
+S5: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -0.5
+S7: [1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 0
+S8: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -1.0
+S9: [2, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 0
+S10: [1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -1.0
+S11: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 0, 0, 0, 0, 0, 0, 0]    with rank -0.5
+S12: [1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]    with rank -0.5
+S14: [3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -1.0
+S15: [1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]    with rank -0.5
+S16: [2, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 0
+S19: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 0
+S20: [1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]    with rank -0.5
+S21: [2, 1, 0, 0, 1, 0, 0, 2, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]    with rank 0
+S22: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]    with rank 0
+S23: [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -0.5
+S24: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -0.5
+S26: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 0
+S27: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0]    with rank 0
+S28: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]    with rank 0
+S29: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]    with rank 0
+S30: [1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]    with rank 0
+
+-------CLUSTERS KMEANS--------
+c0 1, 5, 
+c1 2, 14, 
+c2 3, 
+c3 4, 
+c4 7, 8, 
+c5 9, 12, 
+c6 10, 
+c7 11, 
+c8 15, 20, 23, 30, 
+c9 16, 
+c10 19, 
+c11 21, 
+c12 22, 
+c13 24, 
+c14 26, 
+c15 27, 28, 29, 
+
+-----LABELS---------
+[0, 1, 2, 3, 0, 4, 4, 5, 6, 7, 5, 1, 8, 9, 10, 8, 11, 12, 8, 13, 14, 15, 15, 15, 8]
+
+-----CENTROIDS------
+[1.   0.75 0.   0.25 0.25 0.25 0.25 0.   0.25 0.   0.   0.25 0.   0.
+ 0.   0.   0.   0.   0.   0.25 0.25 0.   0.   0.   0.   0.   0.   0.
+ 0.   0.25 0.   0.   0.25 0.   0.   0.   0.   0.   0.25 0.   0.   0.
+ 0.25 0.   0.   0.25]
+[0.5 0.  0.  0.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.5 0.  0.5 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  1.  0.5 0.5
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0. ]
+[1.5 0.  1.  0.5 0.  0.  0.  0.  1.  0.  0.  0.5 0.  0.  0.  0.5 0.  0.
+ 1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.5 0.  0.  0.  0.  0.  0. ]
+[0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 3. 0. 0. 0. 0. 0. 0. 0.]
+[3.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.5 0.  0.  0.  0.5 1.  0.  0.
+ 0.  0.  0.  0.  0.  1.  0.5 0.  0.  0.  0.  0.5 0.  0.  0.  0.  0.  0.
+ 0.  0.5 0.  0.  0.  0.  0.  0.  0.  0. ]
+[1. 0. 1. 0. 0. 0. 0. 0. 0. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0.]
+[0.33333333 0.         0.         0.         0.         1.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         1.         1.33333333 0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 1.         0.         0.33333333 0.        ]
+[2. 1. 0. 0. 0. 0. 0. 0. 0. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 2. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.]
+[3. 0. 0. 0. 0. 0. 1. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 1. 2. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+[0.  0.  0.  0.  0.  0.  1.  0.5 0.  0.  0.  0.  0.  1.  0.  0.  0.  0.5
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  2.5 0.  0.5 0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0. ]
+[2. 1. 0. 0. 1. 0. 0. 2. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 1. 1. 0. 0. 0.
+ 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.]
+[0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+[1. 0. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.
+ 1. 1. 1. 1. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]

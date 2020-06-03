@@ -1,0 +1,45 @@
+Comunicarea nonverbală
+S1: Comunicarea nonverbală între oameni este comunicarea prin trimiterea și primirea de indicii nonverbale.
+S2: Aceasta include utilizarea de indicii vizuale, cum ar fi limbajul corpului, postura fizică, tonalitatea vocii și contactul fizic.
+S3: Acesta poate include, de asemenea, folosirea timpului, contactul vizual, acțiunea de a privi în timpul vorbirii și ascultării, frecvența privirii, modele de fixare vizuală, dilatarea pupilei și ritmul clipirii.
+S4: Așa cum discursul conține elemente nonverbale, cum ar fi calitatea vocii, ritmul, tonalitatea, volumul și stilul vorbirii, precum și ritm, intonație și accent, tot așa și textele scrise au elemente nonverbale cum ar fi stilul de scriere de mână, dispunerea spațială a cuvintelor sau aspectul fizic al unei pagini.
+S5: Cu toate acestea, o mare parte din studiul comunicării nonverbale s-a concentrat pe interacțiunea dintre indivizi, putând fi clasificat în trei domenii principale de analiză: condițiile de mediu în care are loc comunicarea, caracteristicile fizice ale comunicatorilor și comportamentele comunicatorilor în timpul interacțiunii.
+S6: Comunicarea nonverbală implică procese de codare și decodare conștiente și inconștiente.
+S7: Codarea reprezintă activitatea de generare de informații prin expresii faciale, gesturi și posturi ale corpului.
+S8: Informațiile codate folosesc semnale care ar putea fi considerate ca universale.
+S9: Decodarea reprezintă interpretarea informațiilor din senzațiile transmise de comunicator.
+S10: Informațiile decodate utilizează cunoașterea pe care o poate avea cineva cu privire la senzațiile primite.
+S11: De exemplu ridicare a două degete în sus îl poate face pe decodificator să înțeleagă din experiențele anterioare că aceasta înseamnă cifra doi.
+S12: Doar un mic procent din creier procesează comunicarea verbală.
+S13: În copilărie, comunicarea nonverbală este învățată din comunicarea social-emoțională, iar gesturile faciale sunt un canal principal de comunicare spre deosebire de voce.
+S14: Pe măsură ce copiii devin comunicatori verbali, ei încep să se uite mai mult subconștient la expresiile faciale, tonurile vocale și la alte elemente nonverbale.
+S15: Cultura joacă un rol important în comunicarea nonverbală și reprezintă un aspect care ajută la înțelegerea modului în care sunt organizate activitățile de învățare.
+S16: În multe comunități americane indigene este pus, de exemplu, de multe ori un accent pe comunicarea nonverbală, care constituie un mijloc important prin care copiii învață.
+S17: În acest sens, procesul de învățare nu este dependent de comunicarea verbală; mai degrabă, comunicarea nonverbală servește ca un mijloc primar nu numai pentru organizarea de interacțiuni interpersonale, dar și pentru transmiterea valorilor culturale, iar copiii învață cum să participe la acest sistem încă de la o vârstă fragedă.
+S18: 
+
+-------------MOST FREQUENT TERMS-------------
+comunicare putea informație voce ritm avea comunicator reprezenta învăța copil indiciu include corp tonalitate contact timp vorbire privire element accent aspect interacțiune proces codare decodare activitate expresie gest senzație exemplu învățare mijloc 
+
+-----------VECTOR REPRESENTATION-------------
+S1: [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 20
+S2: [0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -0.5
+S3: [0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -0.5
+S6: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0]    with rank 5
+S7: [0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0]    with rank 0
+S8: [0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -0.5
+S9: [0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0]    with rank 0
+S10: [0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]    with rank -1.0
+S11: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]    with rank -1.0
+S12: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 5
+S13: [3, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]    with rank 15
+S14: [0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]    with rank -1.5
+S15: [1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0]    with rank 4.0
+S16: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]    with rank 3.0
+
+-------CLUSTERS HIERARCHICAL-----
+c0 1, 2, 3, 6, 7, 8, 9, 10, 11, 14, 
+c1 12, 
+c2 13, 
+c3 15, 
+c4 16, 

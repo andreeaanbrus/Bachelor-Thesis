@@ -1,0 +1,37 @@
+Telescopul spațial Hubble, 30 de ani de descoperiri științifice
+S1: Pe 24 aprilie 1990, oamenii de știință lansau în spațiu telescopul Hubble, probabil cel mai cel mai popular instrument științific din lume.
+S2: Până acum 400 de ani, tot ce știam despre univers, erau observațiile făcute cu ochiul liber.
+S3: Apoi, Galileo Galilei și-a îndreptat telescopul spre cer și ne-a arătat o altă lume.
+S4: Treptat, am aflat că Saturn avea inele, Jupiter, luni, iar pata nebuloasă de pe cer nu era un nor, ci Calea Lactee, o înșiruire de nenumărate stele.
+S5: Mai târziu, telescoapele s-au mărit și ne-au oferit și mai multe detalii despre univers.
+S6: Pe 24 aprilie 1990, oamenii de știință lansau telescopul Hubble (numit așa după astronomul american Edwin Hubble, cel care a descoperit expansiunea universului), probabil cel mai cel mai popular instrument științific din lume.
+S7: Hubble a transformat felul în care înțelegem universul și a schimbat astronomia pentru totdeauna.
+S8: Telescopul a fost dezvoltat de NASA, în parteneriat cu Agenția Spațială Europeană și orbitează la 340 de mile deasupra suprafeței Pământului.
+S9:  Hubble poate observa obiectele din spațiu și fenomenele astronomice mai clar decât telescoapele aflate la sol pentru că se află în afara atmosferei și poate capta imagini care nu sunt influențate de turbulențele atmosferice.
+S10: Folosind date Hubble, astronomii au produs imagini șocante ale nebuloaselor planetare − învelișurile de gaz ejectate de stelele instabile, care se sting −, și au captat imaginea discurilor protoplanetare din Nebuloasa Orion și din alte regiuni în care se formează stele, confirmând că planetele își încep viața sub forma unor discuri de praf și gaz, așa cum se formulase în teorie.
+S11: Au verificat existența găurilor negre situate în centrul galaxiilor și au identificat o legătură teoretică între astfel de găuri negre și semnalele strălucitoare numite quasari.
+S12: Au confirmat că misterioasele explozii de lumină de înaltă energie, numite explozii de raze gamma, sosesc de peste tot din univers, iar o categorie de explozii rezultă din implozia stelelor masive.
+S13: Dar cea mai ciudată și mai neașteptată descoperire, una care avea într-adevăr „să ne modifice profund conceptele fundamentale de spațiu și timp”.
+S14: În 1995, telescopul spațial Hubble al NASA a trimis această imagine iconică a Nebuloasei Vulturului, unde se crede că se formează stele noi, supranumită „Stâlpii Creației”.
+
+-------------MOST FREQUENT TERMS-------------
+Hubble telescop univers stea imagine spațiu lume afla aprilie om știință lansa instrument cer avea telescoapă astronom capta forma confirma 
+
+-----------VECTOR REPRESENTATION-------------
+S1: [1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0]    with rank 21
+S2: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 4.0
+S3: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]    with rank 7
+S4: [0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 2, 0, 0, 0, 0, 0]    with rank 3
+S5: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]    with rank 0
+S7: [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 5.5
+S8: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 5
+S11: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0]    with rank 0
+S13: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]    with rank 3.5
+S14: [1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]    with rank 11.0
+
+-------CLUSTERS HIERARCHICAL-----
+c0 1, 2, 3, 4, 5, 11, 
+c1 7, 
+c2 8, 
+c3 13, 
+c4 14, 

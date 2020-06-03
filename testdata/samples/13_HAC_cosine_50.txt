@@ -1,0 +1,68 @@
+Încălzirea globală
+S1: Încălzirea globală este fenomenul de creștere continuă a temperaturilor medii înregistrate ale atmosferei în imediata apropiere a solului, precum și a apei oceanelor, constatată în ultimele două secole, dar mai ales în ultimele decenii.
+S2: Fenomene de încălzire globală au existat dintotdeauna în istoria Pământului, ele fiind asociate cu fenomenul cosmic de maximum solar, acestea alternând cu mici glaciațiuni terestre asociate cu fenomenul de minimum solar.
+S3: Temperatura medie a aerului în apropierea suprafeței Pământului a crescut în ultimul secol cu 0,74 ± 0,18 °C.
+S4: Dacă fenomenul de încălzire observat este cvasi-unanim acceptat de oamenii de știință și de factorii de decizie, există diverse explicații asupra cauzelor procesului.
+S5: Opinia dominantă este că încălzirea se datorează activității umane, în special prin eliberarea de dioxid de carbon în atmosferă prin arderea de combustibili fosili.
+S6: Grupul interguvernamental de experți în evoluția climei afirmă că cea mai mare parte a creșterii temperaturii medii în a doua jumătatea a secolului al XX-lea se datorează probabil creșterii concentrației gazelor cu efect de seră, de proveniență antropică.
+S7: Ei consideră că fenomenele naturale ca variațiile solare și vulcanismul au avut un mic efect de încălzire până în anii 1950, dar după efectul a fost de ușoară răcire.
+S8: Teoria încălzirii globale antropice este contestată de unii oameni de știință și politicieni.
+S9: Există teoreticieni ai conspirației care cred că totul este doar un pretext al elitelor mondiale de a cere taxe împotriva poluării.
+S10: Încălzirea globală are presupuse efecte profunde în cele mai diferite domenii.
+S11: Ea determină sau va determina ridicarea nivelului mării, extreme climatice, topirea ghețarilor, extincția a numeroase specii și schimbări privind sănătatea oamenilor.
+S12: Împotriva efectelor încălzirii globale se duce o luptă susținută, al cărei aspect central este ratificarea de către guverne a protocolului privind reducerea emisiei poluanților care influențează viteza încălzirii.
+S13: Ciclul solar este o variație a activității solare cu o durată medie de 11,2 ani, însă se cunosc cicluri solare cu durate între 8 și 15 ani.
+S14: Se presupune că un ciclu solar este determinat de câmpul său magnetic, care se inversează o dată la 11 ani, un ciclu magnetic complet durând de fapt 22 de ani.
+S15: Activitatea solară este caracterizată prin numărul de pete solare, numărul de erupții solare și radiația solară.
+S16: Cel mai bun indice este considerat cel al radiației de 2,8 GHz, adică a radiației cu lungimea de undă de 10,7 cm.
+S17: Nu se cunoaște prea bine influența ciclului solar asupra climei, însă lipsa petelor solare din a doua jumătate a secolului al XVII-lea a coincis cu o perioadă foarte friguroasă, numită mica eră glaciară.
+S18: În ultimii 400 000 de ani au avut loc trei mari glaciațiuni.
+S19: Studiul climei din vechime, de exemplu din cuaternar, de acum 1,8 milioane de ani și până astăzi se poate face pe baza carotajelor din Antarctica, care pot extrage gheață de la adâncimea de 3500 m.
+S20: Vechimea gheții este de câteva sute de mii de ani.
+S21: Compoziția izotopică a oxigenului extras din gheață permite reconstituirea temperaturii atmosferei pe o perioadă în urmă de până la 700000 de ani.
+S22: Glaciațiunile au fost următoarele: Mindel, care a durat între anii 650 000 – 350 000 î Hr, Riss, care a durat între anii 300 000  - 120 000 î Hr și Würm, care a durat între anii 80 000 – 10 000 î Hr.
+S23: Tot în era cuaternară, înainte de cele trei menționate a avut loc glaciațiunea Günz, care a durat între anii 900 000 – 700 000 î Hr.
+S24: În perioada cuaternară variațiile de temperatură n-au depășit 10 °C, iar maximele de temperatură n-au depășit niciodată +4 °C față de temperaturile actuale.
+S25: În perioade mai îndepărtate variațiile de temperatură au atins 22 °C, iar maximele +8 °C.
+S26: Studiului glaciațiunilor a relevat perfectă corelație între temperatură, întinderea ghețurilor și concentrația de dioxid de carbon în atmosferă.
+S27: 
+
+-------------MOST FREQUENT TERMS-------------
+an încălzire temperatură fenomen glaciațiune °c efect atmosferă secol variație avea ciclu perioadă creștere exista om activitate climă radiație medie apropiere pământ știință datora dioxid carbon jumătate concentrație considera determina cunoaște pată loc studiu vechime gheață dura Hr maximă 
+
+-----------VECTOR REPRESENTATION-------------
+S3: [0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 0
+S4: [0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 5
+S5: [0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 4.5
+S7: [1, 1, 0, 1, 0, 0, 2, 0, 0, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 4.5
+S8: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 5
+S9: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -1.0
+S10: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 5
+S11: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -0.5
+S12: [0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 9.0
+S13: [2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -0.5
+S15: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]    with rank 0
+S16: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 0.5
+S18: [1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]    with rank 0
+S20: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]    with rank -0.5
+S21: [1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]    with rank 0
+S23: [1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0]    with rank 1.5
+S24: [0, 0, 3, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]    with rank 0
+S25: [0, 0, 1, 0, 0, 2, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]    with rank 0
+S26: [0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]    with rank 0
+
+-------CLUSTERS HIERARCHICAL-----
+c0 3, 4, 5, 8, 15, 20, 
+c1 7, 
+c2 9, 
+c3 10, 
+c4 11, 
+c5 12, 
+c6 13, 
+c7 16, 
+c8 18, 
+c9 21, 
+c10 23, 
+c11 24, 
+c12 25, 
+c13 26, 

@@ -1,0 +1,112 @@
+Arhitectura peisagistica
+S1: Arhitectura peisageră este arta de a planifica, a proiecta, a menține, a persevera și a reabilita spațiul verde și designul construcțiilor realizate de om.
+S2: Scopul profesiei include designul arhitectural, planificarea sitului, dezvoltarea spațiului din jurul casei, protecția mediului, planificare urbană, design urban, planificarea parcurilor și a spațiilor de recreere, planificare regională, spații urbane și conservare istorică.
+S3: Un practician în domeniul arhitecturii peisajului se numește arhitect peisagist.
+S4: Arhitectura peisagistică este un domeniu multidisciplinar, care include aspecte ale botanicii, horticulturii, artelor plastice, arhitecturii, științelor solului, psihologiei mediului, geografiei, ecologiei și ingineriei civile.
+S5: Activitățile unui arhitect peisagistic pot varia de la crearea parcurilor publice și a aleelor la amenajarea de terenuri pentru campusuri și parcuri de birouri corporative, de la proiectarea proprietăților rezidențiale până la proiectarea infrastructurii civile și gestionarea zonelor mari de sălbăticie sau recuperarea peisajelor degradate cum ar fi minele sau depozitele de deșeuri.
+S6: Arhitecții de peisaj lucrează asupra structurilor și a spațiilor exterioare cu limitări la aspectul peisajului sau al parcului de proiectare - mari sau mici, urbane, suburbane și rurale și cu materiale "dure" (construite) și "moi" (plantate), integrând în același timp durabilitatea ecologică.
+S7: Cea mai valoroasă contribuție poate fi făcută în prima etapă a unui proiect de a genera idei cu înțelegere tehnică și fler creativ pentru proiectarea, organizarea și utilizarea spațiilor.
+S8: Arhitectul peisagistic poate plănui conceptul general și pregătește planul general, de la care sunt pregătite desene detaliate de proiectare și specificațiile tehnice.
+S9: De asemenea, pot examina propunerile de autorizare și supraveghere a contractelor pentru lucrările de construcție.
+S10: Printre alte competențe se numără pregătirea evaluărilor de impact asupra proiectării, efectuarea evaluărilor de mediu și a auditurilor și servirea drept martor expert la întrebările privind problemele legate de utilizarea terenurilor.
+S11: Istoria arhitecturii peisagere este în strânsă legătură cu istoria grădinăritului, dar nu sunt la fel de vaste.
+S12: Ambele arte sunt preocupate de compoziția plantării, forma spațiului, apă, pavaj și alte structuri, dar designul gradinilor se ocupă în mod special cu spații închise, private (parc, grădină etc).
+S13: Designul arhitectural se ocupă cu spații închise, dar de asemenea se ocupă cu spații deschise, care sunt deschise publicului (scuar, parc rural, sisteme de parcuri, spații verzi etc).
+S14: Romanii au preluat arhitectura peisajului pe o scară extensivă, și au scris multe despre acest subiect ceea ce afectează și acum peisagiștii.
+S15: La fel ca și în celelalte arte, grădinăritul a fost reînviat în perioada Renascentistă, cu extraordinarele exemple, inclusiv spațiile pentru recreere.
+S16: Grădinile renascentiste s-au dezvoltat în cel de-al 16-lea și cel de-al 17-lea secol, ajungând la superlativul grandorii.
+S17: În secolul al 18-lea, Anglia a devenit punctul culminant în noul stil al Arhitecturii Peisagere.
+S18: Personalități ca William Kent, Humphry Repton, și mai cu seamă faimosul Lancelot 'Capability' Brown au remodelat marile parcuri din Anglia, pentru a semăna cu versiune curată și ordonată a naturii, multe din aceste parcuri au rămas până în zilele noastre.
+S19: Termenul de "Arhitectură Peisageră" a fost preluat de către JC Loudon și AJ Downing.
+S20: De alungul celui de al 19-lea secol, planificarea urbană a devenit tot mai importantă, și era combinația dintre planificarea modernă și tradiționalul grădinărit, ceea ce a dat Ahitecturii Peisagere concentrarea unică.
+S21: În cea de-a doua parte a secolului Frederick Law Olmsted, a completat o serie de parcuri, care continuă să fie o mare influență asupra practicanților Arhitecturii peisagere din zilele noastre.
+S22: Printre acestea se numără Central Park din New York, Prospect Park din Brooklyn, și sistemul de parcuri numite Emerald Necklace din Boston.
+S23: Arhitectura peisageră, continuă să se dezvolte ca disciplină estetică, și a răspuns multor mișcări de estetică și de arhitetură de-a lungul secolului 20.
+S24: Azi, continuă să se creeze o inovație, pentru a oferi soluții estetice competitive pentru spațiile verzi de-a lungul drumurilor, parcuri și grădini, lucrările estetice ale Marthei Schwartz în SUA și în Europa ca Schouwburgplein în Rotterdam și la Dutch design group West 8, sunt doar două exemple.
+S25: Ian McHarg este considerat o influență importantă în legătură cu Arhitectura Peisageră modernă și în planificarea particulară.
+S26: Cu ajutorul cărții "Design with Nature", a realizat un sistem de analiză a fiecărei porțiuni dintr-un sit, pentru înțelegerea compilată a atributelor calitative a spațiului.
+S27: Acest sistem a devenit fundația GIS-ului (Geographic Information Systems) software-ul în Arhitectura peisageră,  care dă un aspect calitativ și tehnic pentru științe ca istoria, hidrologia, topografia.
+S28: ,Arhitectura peisagistică eficientă din punct de vedere energetic este genul de arhitectură peisagistică destinat pentru conservarea energiei.
+S29: Există o diferențiere între energia materialelor pentru realizarea peisajului, și energia consumată prin întreținerea și operațiile peisajului.
+S30: 
+
+-------------MOST FREQUENT TERMS-------------
+spațiu arhitectură parc design peisaj proiectare secol artă planificare putea sistem mediu arhitect aspect ocupa grădină deveni energie peisager construcție realiza include sit recreere conservare domeniu știință teren structură material înțelegere utilizare lucrare număra istorie legătură grădinărit fel etc) prelua exemplu dezvolta Anglia punct zi da continua influență lung 
+
+-----------VECTOR REPRESENTATION-------------
+S1: [1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 11
+S3: [0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 4.5
+S4: [0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 5.5
+S7: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 0
+S8: [0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -0.5
+S9: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 0
+S11: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 5
+S12: [2, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -0.5
+S13: [3, 0, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -1.5
+S14: [0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 3.5
+S15: [1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 0
+S16: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]    with rank 0
+S17: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0]    with rank 6
+S19: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 9
+S22: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 7.0
+S23: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1]    with rank 0.5
+S25: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]    with rank 3
+S26: [1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 2
+S27: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]    with rank 3.5
+S28: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]    with rank 6
+S29: [0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 0
+
+-------CLUSTERS KMEANS--------
+c0 1, 15, 
+c1 3, 4, 14, 19, 28, 29, 
+c2 7, 8, 
+c3 9, 
+c4 11, 27, 
+c5 12, 13, 
+c6 16, 17, 23, 
+c7 22, 25, 
+c8 26, 
+
+-----LABELS---------
+[0, 1, 1, 2, 2, 3, 4, 5, 5, 1, 0, 6, 6, 1, 7, 6, 7, 8, 4, 1, 1]
+
+-----CENTROIDS------
+[2.5 0.  1.5 1.  0.  0.  0.  0.5 0.  0.  0.5 0.  0.  0.  1.5 0.5 0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.5 0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. ]
+[0.  0.5 0.  0.  0.  0.  0.  0.  0.  0.  0.5 0.  0.  0.5 0.  0.  0.5 0.
+ 1.  0.  0.  0.  0.  0.  0.  0.  0.5 0.  0.  0.  0.  0.  0.  0.  1.5 0.5
+ 0.5 0.5 0.  0.  0.  0.  0.  0.  0.  0.5 0.  0.  0. ]
+[0.  0.  0.5 0.  0.  0.  0.  0.  0.5 0.  0.5 0.  0.  0.  0.  0.  0.  0.
+ 0.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.5 0.  0.5
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.5 0. ]
+[1. 0. 0. 1. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 1. 0.
+ 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0.]
+[0.         0.33333333 0.         0.         0.         0.
+ 1.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.33333333 0.33333333 0.
+ 0.66666667 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.66666667
+ 0.33333333 0.33333333 0.         0.         0.33333333 0.
+ 0.33333333]
+[0.         0.83333333 0.         0.         0.66666667 0.
+ 0.         0.16666667 0.         0.         0.         0.16666667
+ 0.16666667 0.16666667 0.         0.         0.         0.5
+ 0.16666667 0.         0.         0.16666667 0.         0.
+ 0.16666667 0.33333333 0.16666667 0.         0.         0.16666667
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.33333333 0.         0.
+ 0.         0.16666667 0.         0.         0.         0.
+ 0.        ]
+[0.5 0.  0.  0.  0.  1.  0.  0.  0.  1.  0.  0.  0.5 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.5 0.5 0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. ]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0.]
+[1.  0.  0.  0.5 0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.5 0.5 0.5 0.  0.  0.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.5 0.5 0.  0.  0.5 0.  0.  0.  0.  0.  0.  0.  0. ]

@@ -1,0 +1,78 @@
+Caini ghizi pentru persoanele cu dizabilitati
+S1: Primul câine ghid a fost dresat în Germania în anul 1920 pentru a ajuta bătrânii care și-au pierdut vederea în timpul Primului Război Mondial.
+S2: În România primele exemplare canine au fost formate, pentru nevăzători, în anul 1994, la Craiova, la Centrul de Educare Canină.
+S3: Nu întotdeauna, un antrenament bun reușește să facă un caine să aibă grijă de stăpânul lui.
+S4: De fapt, acești câini sunt selectați în funcție de temperament și de capacitatea de a se adapta după firea și comportamentul persoanei care are nevoie de ajutorul lui.
+S5: În chinologia utilitară poate fi educat orice tip de câine , orice rasă sau nerasă, dar trebuie să se încadreze perfect într-un șablon genotipic și fenotipic.
+S6: Se urmăresc acele exemplare care sunt extrem de sociabile, jucăușe, fără o personalitate ascunsă, fără sa fie hiper sau hipo reactive.
+S7: Sunt selectați câinii care se adaptează rapid în orice mediu, orice familie sau areal geografic.
+S8: Cele mai utilizate rase în specialitatea de câini ghizi sunt labradorul, golden retriever, ciobanescul german.
+S9: La ora actuală există mai multe tipuri de câini ghizi, printre care se numără: câinii ghizi pentru persoane nevăzătoare, pentru persoane care nu aud și pentru persoane cu handicap.
+S10: Câinii care însoțesc persoanele cu deficiențe de auz îi anunța pe stăpâni când aud diverse sunete prin casă.
+S11: Ei sunt antrenați să avertizeze persoana când aude un sunet și sa o ducă până în locul din care acesta provine.
+S12: Un câine ghid pentru nevăzători știe să plimbe stăpânul prin oraș, să îi aducă un anumit obiect etc.
+S13: În această relație câine - om, regulile stau puțin altfel: omul îi dau câinelui o comandă pe care acesta trebuie să o respecte, iar câinele trebuie să îl conducă pe stăpân acolo unde acesta dorește.
+S14: Câinii sunt antrenați încă din primele luni de viață, pentru a ajunge la standardele dorite de antrenorii și de stăpânii acestora.
+S15: După vârsta de 4 luni se fac primele psihoteste câinelui de preselecție.
+S16: Acestea se fac periodic, inclusiv spre o dirijare către specialitatea cea mai bună a exemplarului aflat în studiu.
+S17: Un modul educational pentru câinii ghizi poate dura între 4 și 12 luni și de obicei se intra cu ei în specialități după varsta de 10 luni a câinelui.
+S18: Nu exista câini gata formați care să fie dați spre adopție către persoanele care au nevoie de ei.
+S19: Excepție fac cazurile în care se face o comandă la ferma cu cateva luni inainte.
+S20: 
+
+-------------MOST FREQUENT TERMS-------------
+câine persoană face stăpân lună exemplar trebui specialitate auzi an nevăzător avea selecta adapta nevoie putea tip rasă exista sunet antrena da comandă dori 
+
+-----------VECTOR REPRESENTATION-------------
+S1: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 10.5
+S2: [0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 2
+S3: [0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 0
+S4: [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 4.0
+S5: [1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0]    with rank -0.5
+S6: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -1.5
+S7: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -1.0
+S8: [1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]    with rank 0
+S9: [2, 3, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0]    with rank 13.5
+S10: [1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]    with rank 4.0
+S11: [0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]    with rank 3.0
+S12: [1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -0.5
+S14: [1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1]    with rank -0.5
+S15: [1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -0.5
+S16: [0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -1.0
+S17: [2, 0, 0, 0, 2, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]    with rank -1.0
+S18: [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0]    with rank 3.5
+S19: [0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]    with rank -1.0
+
+-------CLUSTERS KMEANS--------
+c0 1, 18, 
+c1 2, 6, 11, 16, 
+c2 3, 10, 12, 
+c3 4, 7, 
+c4 5, 
+c5 8, 
+c6 9, 
+c7 14, 
+c8 15, 19, 
+c9 17, 
+
+-----LABELS---------
+[0, 1, 2, 3, 4, 1, 3, 5, 6, 2, 1, 2, 7, 8, 1, 9, 0, 8]
+
+-----CENTROIDS------
+[1. 0. 0. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 1.]
+[2. 0. 0. 0. 2. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.]
+[1.  0.5 0.  0.  0.  0.  0.  0.  0.  0.5 0.  0.5 0.  0.  0.5 0.  0.  0.
+ 0.5 0.  0.  0.5 0.  0. ]
+[0.66666667 0.33333333 0.33333333 1.         0.         0.
+ 0.         0.         0.33333333 0.         0.33333333 0.33333333
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.33333333 0.         0.         0.         0.        ]
+[1.  0.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.5 1.  1.  0.5 0.  0.  0.
+ 0.  0.  0.  0.  0.  0. ]
+[0.5 0.  1.5 0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.5 0. ]
+[0.   0.25 0.25 0.   0.   0.75 0.   0.25 0.25 0.25 0.25 0.25 0.   0.
+ 0.   0.   0.   0.   0.   0.25 0.25 0.   0.   0.  ]
+[2. 3. 0. 0. 0. 0. 0. 0. 1. 0. 1. 0. 0. 0. 0. 0. 1. 0. 1. 0. 0. 0. 0. 0.]
+[1. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0.]
+[1. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 0. 0. 0. 0. 0. 0.]

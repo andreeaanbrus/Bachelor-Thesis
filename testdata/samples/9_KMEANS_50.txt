@@ -1,0 +1,68 @@
+Cum se obține compostul
+S1: Compostul este una dintre armele producătorilor care doresc să obțină o producție bună, dar și legume cu gust.
+S2: Chiar și cei care dețin mii de metri pătrați de solar rămân fideli acestei fertilizări naturale a solului care le permite o reducere a costurilor întrucât nimic vegetal nu se pierde, totul se transformă.
+S3: Prepararea compostului diferă în fiecare gospodărie în parte, dar sunt câteva reguli de la care legumicultorii nu se abat niciodată.
+S4: Produsul natural are numai beneficii pentru sol.
+S5: Dacă substratul este nisipos, compostul acționează ca un burete și reține apa, în timp ce la solurile argiloase, compostul adaugă porozitate, protejând împotriva saturării de apă sau a întăririi pământului.
+S6: Compostul este și cel care intermediază introducerea în sol a microbilor buni, bacterii sau ciuperci, asigurându-se habitatul perfect ca mai apoi, microorganismele să extragă/descompună substanțele nutritive și să le transfere către plante.
+S7: Sunt astfel, numeroase motive pentru care legumicultorii au rămas fideli compostului, în ciuda apariției pe piață a tot felul de fertilizanți.
+S8: Partea de materiale pe care le recuperăm, adică frunze, plante și alte resturi se depozitează într-un loc anume unde se face compostul.
+S9: Astfel în fiecare grădină avem o astfel de rampă de gunoi în care punem bălegar, vrejii de la ardei și roșii și alte resturi.
+S10: De obicei, noi aplicăm toamna, dar poate fi pus la fel de ușor și primăvara.
+S11: Compostul nu este dificil de preparat și este un proces ce se poate face în orice gospodărie.
+S12: Direct pe pământ, ca să faciliteze acțiunea viermilor, într-un spațiu protejat de vânt, delimitat după posibilități cu răchită, scânduri sau crengi, se adună frunzele căzute, iarba tunsă, bucăți de brazdă înierbată, buruieni, gunoi de păsări, resturi din bucătărie formate din coji și resturi de la legume, cenușă de lemn, moloz etc.
+S13: Amestecul de resturi se combină cu gunoi de grajd provenit de la bovine sau ovine și găinaț de pasăre, iar dacă este uscat, se udă.
+S14: Tot pentru acest proces, în grămadă se fac câteva găuri cu o țepușă, găuri prin care să pătrundă apa de ploaie sau cea din stropiri.
+S15: Se amestecă periodic compostul pentru omogenizare, se amestecă cu praf de var stins, se umezește când începe să se usuce.
+S16: După cel puțin 6-12 luni, până chiar după 2—3 ani în funcție de viteza de descompunere iar partea mai măruntă poate fi folosită la diverse rețete în special la legume și flori.
+S17: Cealaltă parte, mai grosieră poate fi folosită ca îngrășământ la culturile de porumb, cartofi, grâu etc.
+S18: Compostul este mult mai ieftin decât orice îngrășământ de pe piață, este natural și se poate folosi și în agricultura ecologică.
+S19: 
+
+-------------MOST FREQUENT TERMS-------------
+compost rest putea sol parte face gunou folosi rămâne gospodărie legumicultor avea apă pământ plantă piață fel frunză pune proces pasăre legumă usca îngrășământ 
+
+-----------VECTOR REPRESENTATION-------------
+S1: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]    with rank 19.0
+S3: [1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 4.0
+S4: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 0
+S7: [1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0]    with rank 4.5
+S8: [1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0]    with rank 3.0
+S9: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]    with rank -0.5
+S10: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0]    with rank -0.5
+S11: [1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]    with rank 4.0
+S13: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0]    with rank -1.0
+S14: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]    with rank -1.5
+S15: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]    with rank 3.0
+S17: [0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]    with rank 0
+S18: [1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1]    with rank 4.5
+
+-------CLUSTERS KMEANS--------
+c0 1, 
+c1 3, 8, 
+c2 4, 
+c3 7, 
+c4 9, 
+c5 10, 
+c6 11, 14, 
+c7 13, 
+c8 15, 
+c9 17, 18, 
+
+-----LABELS---------
+[0, 1, 2, 3, 1, 4, 5, 6, 7, 6, 8, 9, 9]
+
+-----CENTROIDS------
+[0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 1. 0. 0. 0. 0. 0.]
+[0.5 0.  0.5 0.  0.  1.  0.  0.  0.  0.5 0.  0.  0.5 0.  0.  0.  0.  0.
+ 0.  1.  0.  0.  0.  0. ]
+[1. 0. 0. 0. 0. 0. 0. 0. 1. 0. 1. 1. 0. 0. 0. 1. 1. 0. 0. 0. 0. 0. 0. 0.]
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+[1.  0.5 0.  0.  1.  0.5 0.  0.  0.  0.5 0.5 0.  0.  0.  0.5 0.  0.  0.5
+ 0.  0.  0.  0.  0.  0. ]
+[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.]
+[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.]
+[0.5 0.  1.  0.  0.5 0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.5 0.  0.
+ 0.  0.  0.  0.  0.  1. ]
+[0. 1. 0. 0. 0. 0. 1. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.]
+[0. 1. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 1. 0.]

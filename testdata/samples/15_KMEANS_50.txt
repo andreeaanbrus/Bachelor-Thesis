@@ -1,0 +1,104 @@
+Inteligența artificială
+S1: În termeni simpli, inteligența artificială se referă la sisteme sau la mașini care imită inteligența umană, pentru a efectua diverse activități și care se pot îmbunătăți iterativ pe baza informațiilor pe care le colectează.
+S2: Iată câteva exemple: roboții de chat utilizează inteligența artificială pentru a înțelege mai repede problemele clienților și pentru a oferi răspunsuri mai eficiente.
+S3: Asistenții inteligenți utilizează inteligența artificială pentru a analiza informațiile esențiale din seturile de date mari de text, pentru a îmbunătăți programarea.
+S4: Motoarele de recomandare pot oferi recomandări automate pentru emisiunile TV, în funcție de obiceiurile de vizionare ale utilizatorilor.
+S5: Inteligența artificială se referă mai mult la procesele și funcționalitățile pentru gândirea și analizele de date extraordinare decât la un anumit format sau funcție.
+S6: Deși inteligența artificială inspiră imagini ale unor roboți performanți, cu aspect uman, care vor cuceri lumea, inteligența artificială nu are intenția de a înlocui oamenii.
+S7: Scopul său este de a spori semnificativ funcționalitățile și contribuțiile umane.
+S8: Acest lucru face ca inteligența artificială să devină un activ foarte valoros pentru afaceri.
+S9: Inteligența artificială a devenit un termen generic pentru aplicațiile care îndeplinesc activități complexe, care odată au necesitat o contribuție umană, cum ar fi comunicarea online cu clienții sau jocul de șah.
+S10: Termenul este adesea utilizat în mod interschimbabil cu subdomeniile sale, care includ învățarea mașinii și învățarea aprofundată.
+S11: Învățarea mașinii se axează pe construcția sistemelor care pot învăța sau își pot îmbunătăți performanțele în funcție de datele pe care le procesează.
+S12: Deși toate sistemele de învățare a mașinii reprezintă inteligență artificială, nu toate sistemele de inteligență artificială sunt axate pe învățarea mașinii.
+S13: Pentru a obține întreaga valoare de la inteligența artificială, multe companii fac investiții semnificative în echipele de știință a datelor.
+S14: Știința datelor, un domeniu interdisciplinar care utilizează metode științifice și alte metode pentru extragerea valorii din date, combină funcționalitățile din domenii precum statistica și informatica cu cunoștințele de afaceri, pentru a analiza datele colectate din mai multe surse.
+S15: Principiul central al inteligența artificială este de a reproduce – și apoi de a depăși – modul în care oamenii percep și interacționează cu lumea.
+S16: Susținută de diverse forme de învățare a mașinii care recunosc modelele de date pentru a permite predicții, inteligența artificială poate adăuga valoare afacerii dumneavoastra prin: oferirea unei înțelegeri mai cuprinzătoare a abundenței datelor disponibile bazarea pe predicții pentru a automatiza activități excesiv de complexe sau de rutină.
+S17: Tehnologia inteligența artificială îmbunătățește performanța și productivitatea la nivel enterprise, prin automatizarea proceselor sau activităților care necesitau odată o intervenție umană.
+S18: Inteligența artificială poate, de asemenea, da semnificație datelor la o scară la care niciun om nu a putut vreodată.
+S19: Această funcționalitate poate aduce beneficii substanțiale pentru afaceri.
+S20: De exemplu, Netflix utilizează machine learning pentru a oferi un nivel de personalizare care a ajutat compania să își dezvolte baza de clienți cu mai mult de 25% în 2017.
+S21: Majoritatea companiilor au făcut din știința datelor o prioritate și investesc foarte mult în acest domeniu.
+S22: Directorii IT intervievați privesc aceste tehnologii ca fiind cele mai strategice pentru companiile lor; prin urmare, ele atrag cele mai noi investiții.
+S23: Inteligența artificială are valoare pentru majoritatea funcțiilor, afacerilor și domeniilor.
+S24: Inteligența artificială include aplicații generale și specifice domeniului, cum ar fi: utilizarea datelor tranzacționale și demografice pentru a anticipa cât vor cheltui anumiți clienți pe parcursul relației lor cu o afacere (sau valoarea ciclului de colaborare al clientului, optimizarea prețurilor pe baza comportamentului și preferințelor clienților, utilizarea recunoașterii imaginilor pentru analiza imaginilor cu raze X, în vederea depistării semnelor de cancer.
+S25: 
+
+-------------MOST FREQUENT TERMS-------------
+inteligență dată putea mașină client afacere utiliza învățare valoare sistem activitate îmbunătăți funcție funcționalitate companie domeniu termen bază oferi imagine om face știință referi informație colecta exemplu analiza proces analiză lume avea contribuție deveni aplicație necesita mod include axa performanță investiție tehnologie nivel majoritate 
+
+-----------VECTOR REPRESENTATION-------------
+S2: [1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 5
+S3: [1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 5
+S4: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 0
+S5: [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 4.5
+S6: [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 9.5
+S7: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 0
+S8: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 5
+S10: [0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0]    with rank -0.5
+S11: [0, 1, 2, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0]    with rank -2.5
+S12: [2, 0, 0, 2, 0, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]    with rank 10
+S13: [1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]    with rank 5
+S15: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]    with rank 4.5
+S17: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0]    with rank 4.5
+S18: [1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 4.5
+S19: [0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 0
+S21: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]    with rank 0
+S22: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0]    with rank 0.5
+S23: [1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]    with rank 5
+
+-------CLUSTERS KMEANS--------
+c0 2, 
+c1 3, 
+c2 4, 
+c3 5, 
+c4 6, 15, 
+c5 7, 19, 22, 
+c6 8, 
+c7 10, 12, 
+c8 11, 
+c9 13, 21, 
+c10 17, 
+c11 18, 
+c12 23, 
+
+-----LABELS---------
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 7, 9, 4, 10, 11, 5, 9, 5, 12]
+
+-----CENTROIDS------
+[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 1. 0. 1. 1. 0.]
+[1. 1. 0. 0. 0. 0. 1. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 1. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+[0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+[1. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+[1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.5 1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.5 0.  0.  0.  0.
+ 0.5 0.  0.  0.  0.  0.  0.  0. ]
+[1. 1. 2. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+[1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.
+ 0. 0. 0. 0. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+[1.  0.  0.  1.5 0.  0.  0.5 2.  0.  1.  0.  0.  0.  0.  0.  0.  0.5 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.5 0.5 0.5 0.  0.  0.  0.  0. ]
+[0. 1. 2. 1. 0. 0. 0. 1. 0. 1. 0. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 0. 0. 0. 0.]
+[0.5 1.  0.  0.  0.  0.  0.  0.  0.5 0.  0.  0.  0.  0.  1.  0.5 0.  0.
+ 0.  0.  0.  1.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.5 0.  0.  0.  0.
+ 0.  0.  0.  0.  0.5 0.  0.  0.5]
+[1. 0. 0. 0. 0. 1. 0. 0. 1. 0. 0. 0. 1. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]
+[0.         0.         0.33333333 0.         0.         0.33333333
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.66666667 0.33333333 0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.33333333 0.         0.         0.
+ 0.         0.         0.         0.         0.33333333 0.33333333
+ 0.         0.        ]
+[1. 0. 0. 0. 1. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.
+ 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]

@@ -1,6 +1,7 @@
 from random import sample
 
 import numpy as np
+import copy
 
 
 def isIn(element, list):
@@ -54,7 +55,6 @@ class MyKMeans:
 
     def meanOfClusters(self, centroids):
         """
-        todo fix this method -> mean based on the computed clusters
         calculate the mean (centroid) of each cluster
         :return: the mean point of the cluster
         """
@@ -64,7 +64,7 @@ class MyKMeans:
             for i in range(len(self.labels)):
                 if np.array_equal(self.labels[i], centroid):
                     pointsInCluster.append(self.input[i])
-            means.append(np.mean(pointsInCluster, axis=0, dtype=int))
+            means.append(np.mean(pointsInCluster, axis=0))
         return means
 
     def predict(self):
@@ -73,13 +73,14 @@ class MyKMeans:
         :return: the list of labels and the centroids of the clusters
         """
         self.centroids = self.initializeCentroids()
+        initialCentroids = copy.deepcopy(self.centroids)
         for i in range(200):
             old_centroids = self.centroids
             self.assignPointsToClusters()
-            self.centroids = self.meanOfClusters(self.centroids)
-            self.assignPointsToClusters()
-            if np.array_equal(old_centroids, self.centroids):
+            new_centroids = self.meanOfClusters(old_centroids)
+            if np.array_equal(old_centroids, new_centroids):
                 break
+            self.centroids = new_centroids
         normalized_labels = self.normalizeLabels(self.labels)
         return normalized_labels, self.centroids
 

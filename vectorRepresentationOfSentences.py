@@ -19,6 +19,8 @@ def vectorRepresentationOfSentences(sentences, most_frequent_terms, no_of_most_f
         # 4. Remove the longest/shortest sentences (sentences over 20 words, under 10 words)
         words = [word.strip(string.punctuation) for word in sentence.text.split()]
         words = [x for x in words if x]
+        if len(words) < 5 or len(words) > 30:
+            sentence.rank -= 2
         for k in range(len(words)):
             if words[k] in word_to_lemma.keys():
                 if word_to_lemma[words[k]]['upos'] == 'PROPN':

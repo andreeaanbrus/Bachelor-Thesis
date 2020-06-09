@@ -1,7 +1,7 @@
 from clustering.myKMeans import MyKMeans
 from frequentTerms import termFrequency
 from clustering.myHierarchicalClustering import MyHierarchicalClustering
-from removeSentences import removeSentences
+from splitSentences import splitSentences
 from clustering.similarity import cosine, customSimilarity, euclidean
 from vectorRepresentationOfSentences import vectorRepresentationOfSentences
 from myutils import zero_vector

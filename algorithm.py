@@ -1,12 +1,15 @@
 import math
 from datetime import datetime
 
+from sklearn.cluster import AgglomerativeClustering, KMeans
+
 from clustering.myHierarchicalClustering import MyHierarchicalClustering
 from clustering.myKMeans import MyKMeans
 from clustering.similarity import euclidean, cosine, customSimilarity
+from clustering.test import sim_affinity_cosine
 from frequentTerms import termFrequency
 from myutils import zero_vector, myround
-from removeSentences import removeSentences
+from splitSentences import splitSentences
 from vectorRepresentationOfSentences import vectorRepresentationOfSentences
 
 
@@ -28,9 +31,9 @@ class Algorithm:
 
         noClusters = 3
         if self.compression == 30:
-            noClusters = int(myround(len(self.input_text.split('.')) * 0.3))
+            noClusters = int(myround((len(self.input_text.split('.')) - 1) * 0.3))
         if self.compression == 50:
-            noClusters = int(myround(len(self.input_text.split('.')) * 0.5))
+            noClusters = int(myround((len(self.input_text.split('.')) - 1) * 0.5))
         start1 = datetime.now()
         (no_of_most_frequent_terms, most_frequent_terms, word_to_lemma, title_lemma) = termFrequency(self.input_text,
                                                                                                      self.title)
@@ -41,7 +44,7 @@ class Algorithm:
         stop1 = datetime.now()
         print("Term frequency and lemmatization time: ", stop1 - start1)
         start2 = datetime.now()
-        sentences = removeSentences(self.input_text, '.\n')
+        sentences = splitSentences(self.input_text, '.?!')
         mostFrequentTerms = most_frequent_terms[:no_of_most_frequent_terms]
 
         vectorRepresentationOfSentences(sentences, mostFrequentTerms,
@@ -69,12 +72,25 @@ class Algorithm:
             cluster = MyHierarchicalClustering(noClusters=noClusters, similarity=cosine,
                                                input=[sentence.representation for sentence in sentences])
             labels = cluster.predict()
+            # cluster = AgglomerativeClustering(n_clusters=noClusters, linkage="average",
+            #                                   affinity=sim_affinity_cosine)
+            # cluster.fit_predict([sentence.representation for sentence in sentences])
+            # sklearnLabels = []
+            # for i in cluster.labels_:
+            #     sklearnLabels.append(i)
+            # labels = sklearnLabels
             stop3 = datetime.now()
             print("Clustering time: ", stop3 - start3)
         if self.method == 'kmeans':
             start3 = datetime.now()
-            cluster = MyKMeans(noClusters=noClusters, input=[sentence.representation for sentence in sentences], similarity=euclidean)
-            labels, centroids = cluster.predict()
+            # cluster = MyKMeans(noClusters=noClusters, input=[sentence.representation for sentence in sentences], similarity=euclidean)
+            # labels, centroids = cluster.predict()
+            cluster = KMeans(n_clusters=noClusters, init='random')
+            cluster.fit_predict([sentence.representation for sentence in sentences])
+            sklearnLabels = []
+            for i in cluster.labels_:
+                sklearnLabels.append(i)
+            labels = sklearnLabels
             stop3 = datetime.now()
             print("Clustering time: ", stop3 - start3)
 
@@ -90,23 +106,30 @@ class Algorithm:
                 if sentence.label == i:
                     f.write(str(sentence.id) + ', ')
             f.write('\n')
+        #####################################################
 
-        # 7.Construct the summary
+        # 7.Construct the summary - using rank
         summary_positions = [-100 for _ in range(noClusters)]
         summary_rank = [-100 for _ in range(noClusters)]
         for sentence in sentences:
             if sentence.rank > summary_rank[sentence.label]:
                 summary_positions[sentence.label] = sentence.id
                 summary_rank[sentence.label] = sentence.rank
-        # sort the summary_positions to assure the chronological order of the sentences
+
+        #####################################################
+        # 7.Construct the summary - most not null values
+        # for i in range(noClusters):
+        #     index = self.takeMostNotNull(sentences, i)
+        #     summary_positions[i] = index
+        #########################################################
+        # # sort the summary_positions to assure the chronological order of the sentences
         summary_positions.sort()
         print(summary_positions)  # <- the positions in the initial sentences
-
         if self.method == 'kmeans':
             f.write('\n-----LABELS---------\n')
             f.write(str(labels) + '\n')
             f.write('\n-----CENTROIDS------\n')
-            for centroid in centroids:
+            for centroid in cluster.cluster_centers_:
                 f.write(str(centroid) + '\n')
         for sentence in sentences:
             if sentence.id in summary_positions:
@@ -116,3 +139,17 @@ class Algorithm:
         # fout.write(summary)
         # fout.close()
         return sentences, summary, summary_positions
+
+    def takeMostNotNull(self, sentences, clusterNo):
+        mostNotNullIdx = -1
+        maxNotNull = 0
+        for sentence in sentences:
+            if sentence.label == clusterNo:
+                notNull = 0
+                for value in sentence.representation:
+                    if value != 0:
+                        notNull += 1
+                if notNull > maxNotNull:
+                    maxNotNull = notNull
+                    mostNotNullIdx = sentence.id
+        return mostNotNullIdx

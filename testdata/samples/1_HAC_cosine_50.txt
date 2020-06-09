@@ -1,5 +1,5 @@
 Iulius Cezar
-S1: Gaius Iulius Caesar a fost un lider politic și militar roman și una dintre cele mai influente și mai controversate personalități din istorie.
+S1: Gaius Iulius Cezar a fost un lider politic și militar roman și una dintre cele mai influente și mai controversate personalități din istorie.
 S2: Rolul său a fost esențial în instaurarea dictaturii la Roma, lichidarea democrației Republicii și instaurarea Imperiului Roman.
 S3: A provocat războaie de cucerire fără acceptul senatului roman.
 S4: Cucerirea Galiei, plănuită de Cezar, a inclus sub dominația romană teritorii până la Oceanul Atlantic.
@@ -19,7 +19,7 @@ S15: Multe detalii ale vieții sale au fost relatate mai târziu de istorici, pr
 Cezar Octavian război Antoniu republică lider imperiu războaie cucerire dictator lume roman guvernare viață Brutus cezar Lepidus Cassius bătălie detaliu 
 
 -----------VECTOR REPRESENTATION-------------
-S1: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 17.5
+S1: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 22.5
 S2: [0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 1
 S3: [0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 0
 S4: [1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 7
@@ -28,17 +28,19 @@ S6: [1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 2, 1, 0, 0, 0, 0, 0, 0, 0]    with rank 5.
 S7: [1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0]    with rank 5.5
 S8: [1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]    with rank 7.5
 S9: [0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0]    with rank 7.5
+S10: [0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0]    with rank 4.5
 S11: [0, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]    with rank 4
 S12: [0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 1
+S13: [2, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0]    with rank 13
 S14: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]    with rank 8
 S15: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1]    with rank 4
 
 -------CLUSTERS HIERARCHICAL-----
-c0 1, 7, 8, 9, 11, 14, 
-c1 2, 
-c2 3, 
-c3 4, 
-c4 5, 
-c5 6, 
-c6 12, 
-c7 15, 
+c0 12, 14, 
+c1 6, 15, 
+c2 4, 10, 
+c3 2, 7, 
+c4 5, 11, 
+c5 3, 8, 
+c6 1, 9, 
+c7 13, 
